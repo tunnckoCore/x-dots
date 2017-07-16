@@ -201,7 +201,6 @@ bindsym --release $super+Print 	$exec $scrt -u  # current window
 bindsym --release $super+p 		$exec $scrt -s  # select area
 
 # Animations, background and autostarts
-$exec compton -bf -D 2
 $exec xfce4-terminal --title="Terminal 1"
 
 # Set background

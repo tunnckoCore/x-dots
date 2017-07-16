@@ -38,14 +38,8 @@ fi
 #########################
 #########################
 
-numlockx on &
 #udiskie -a -2 -N -s &
-#compton -f -b &
 
-# exec i3 -c ~/.config/i3/config.conf -V >> ~/.config/i3/log 2>&1
-
-# orig:
-#exec i3 -c ~/.config/i3/config.conf
-
-# default:
+numlockx on &
+compton -bf -D 2 &
 exec i3
