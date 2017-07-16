@@ -1,0 +1,45 @@
+2017/07/16-03:35:58.975 12180 Reusing MANIFEST /home/charlike/.config/google-chrome-unstable/Default/Session Storage/MANIFEST-000001
+2017/07/16-03:35:58.976 12180 Recovering log #8
+2017/07/16-03:35:58.976 12180 Reusing old log /home/charlike/.config/google-chrome-unstable/Default/Session Storage/000008.log 
+2017/07/16-03:37:17.084 15577 Level-0 table #12: started
+2017/07/16-03:37:17.232 15577 Level-0 table #12: 123704 bytes OK
+2017/07/16-03:37:17.299 15577 Delete type=0 #8
+2017/07/16-03:48:52.382 15577 Level-0 table #14: started
+2017/07/16-03:48:52.442 15577 Level-0 table #14: 77945 bytes OK
+2017/07/16-03:48:52.492 15577 Delete type=0 #11
+2017/07/16-03:49:16.885 15577 Level-0 table #16: started
+2017/07/16-03:49:16.929 15577 Level-0 table #16: 143223 bytes OK
+2017/07/16-03:49:16.979 15577 Delete type=0 #13
+2017/07/16-03:49:16.979 15577 Compacting 4@0 + 1@1 files
+2017/07/16-03:49:17.021 15577 Generated table #17@0: 360 keys, 339328 bytes
+2017/07/16-03:49:17.021 15577 Compacted 4@0 + 1@1 files => 339328 bytes
+2017/07/16-03:49:17.073 15577 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/07/16-03:49:17.074 15577 Delete type=2 #7
+2017/07/16-03:49:17.074 15577 Delete type=2 #14
+2017/07/16-03:49:17.074 15577 Delete type=2 #16
+2017/07/16-03:49:17.074 15577 Delete type=2 #12
+2017/07/16-03:49:17.075 15577 Delete type=2 #9
+2017/07/16-03:49:41.783 15577 Level-0 table #19: started
+2017/07/16-03:49:41.827 15577 Level-0 table #19: 240728 bytes OK
+2017/07/16-03:49:41.911 15577 Delete type=0 #15
+2017/07/16-03:50:16.183 15577 Level-0 table #21: started
+2017/07/16-03:50:16.221 15577 Level-0 table #21: 324800 bytes OK
+2017/07/16-03:50:16.272 15577 Delete type=0 #18
+2017/07/16-03:51:27.442 15577 Level-0 table #23: started
+2017/07/16-03:51:27.484 15577 Level-0 table #23: 128136 bytes OK
+2017/07/16-03:51:27.535 15577 Delete type=0 #20
+2017/07/16-04:26:15.710 15577 Level-0 table #25: started
+2017/07/16-04:26:15.764 15577 Level-0 table #25: 69315 bytes OK
+2017/07/16-04:26:15.814 15577 Delete type=0 #22
+2017/07/16-04:26:15.814 15577 Compacting 4@0 + 1@1 files
+2017/07/16-04:26:15.873 15577 Generated table #26@0: 817 keys, 972378 bytes
+2017/07/16-04:26:15.873 15577 Compacted 4@0 + 1@1 files => 972378 bytes
+2017/07/16-04:26:15.906 15577 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/07/16-04:26:15.907 15577 Delete type=2 #21
+2017/07/16-04:26:15.907 15577 Delete type=2 #17
+2017/07/16-04:26:15.907 15577 Delete type=2 #23
+2017/07/16-04:26:15.907 15577 Delete type=2 #19
+2017/07/16-04:26:15.907 15577 Delete type=2 #25
+2017/07/16-04:43:16.214 15577 Level-0 table #28: started
+2017/07/16-04:43:16.255 15577 Level-0 table #28: 72287 bytes OK
+2017/07/16-04:43:16.305 15577 Delete type=0 #24

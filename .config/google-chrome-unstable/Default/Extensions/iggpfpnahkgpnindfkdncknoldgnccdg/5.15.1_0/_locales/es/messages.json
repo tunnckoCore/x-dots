@@ -1,0 +1,241 @@
+{
+   "chrome_web_store": {
+      "description": "Chrome Web Store",
+      "message": "Tienda Web de Chrome"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum of 130 characters",
+      "message": "Auto-repite videos con UN-CLICK y capaz de repetir videos por defecto, repite cuantas veces quieras y repite los trozos que quieras"
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "Español"
+   },
+   "message_saved": {
+      "description": "message shown after options saved",
+      "message": "Guardado"
+   },
+   "option_advanced_panel": {
+      "description": "Option Checkbox, loop panel that include loop times and loop in portion",
+      "message": "Opciones de repeticion avanzadas (Repite cuantas veces quieras, y/o una parte)"
+   },
+   "option_auto": {
+      "description": "default/'auto' quality based on youtube selection",
+      "message": "Por defecto (Auto)"
+   },
+   "option_auto_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip",
+      "message": "Repetir automaticamente cada video"
+   },
+   "option_auto_player_size": {
+      "description": "Option Checkbox, auto player size",
+      "message": "Habilitar tamaño del reproductor automático para"
+   },
+   "option_auto_quality": {
+      "description": "Option Selectbox, auto video quality",
+      "message": "Auto-habilitar calidad del video como"
+   },
+   "option_button": {
+      "description": "Selectbox, set visible button content",
+      "message": "Vista del botón"
+   },
+   "option_button_icon": {
+      "description": "selection option, icon only",
+      "message": "Solo icono"
+   },
+   "option_button_iconandtext": {
+      "description": "selection option, icon and text",
+      "message": "Icono y texto"
+   },
+   "option_button_text": {
+      "description": "selection option, text only",
+      "message": "Solo texto"
+   },
+   "option_default_show_panel": {
+      "description": "Option Checkbox, set not to show panel if options set before page load, like auto default loop or set options via url, instead, it will show the about panel",
+      "message": "Mostrar el panel de opciones incluso si las opciones estaban establecidas antes de cargar la pagina"
+   },
+   "option_full_size": {
+      "description": "full-window player size",
+      "message": "Tamaño completo"
+   },
+   "option_keyboard_shortcut_loop": {
+      "description": "Option Checkbox, p key as keyboard shortcut to loop",
+      "message": "Activar 'p' del teclado como acceso rapido a repeticion"
+   },
+   "option_keyboard_shortcut_pause": {
+      "description": "Option Checkbox, spacebar as keyboard shortcut for play/pause video for whole page instead of only when player focus",
+      "message": "Activar 'barra-espaciadora' del teclado como acceso rapido a reproducir/pausar el video"
+   },
+   "option_large_size": {
+      "description": "large size",
+      "message": "Grande"
+   },
+   "option_larger_size": {
+      "description": "larger size",
+      "message": "Muy Grande"
+   },
+   "option_manual_loop": {
+      "description": "Radiobox, start loop manually for every clip",
+      "message": "Repetir videos manualmente"
+   },
+   "option_savestate_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip if state on previous video is looping",
+      "message": "Repetir videos automaticamente de acuerdo al estado anterior"
+   },
+   "option_show_changelog": {
+      "description": "changelog page will be shown when user open YouTube after the extension is updated",
+      "message": "Mostrar versiones anteriores cuando la extensión se actualice"
+   },
+   "option_small_size": {
+      "description": "small size",
+      "message": "Pequeño"
+   },
+   "script_button_hover": {
+      "description": "loop button hover pop-up tips",
+      "message": "Repetir automaticamente"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Repetir"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Continuar con la lista de reproduccion"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Doble-click para coger el tiempo actual"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Doble-click para empezar a repetir este trozo"
+   },
+   "script_from": {
+      "description": "loop in a portion, from",
+      "message": "desde: "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Esconder esto"
+   },
+   "script_information": {
+      "description": "information to promote user to option page",
+      "message": "¿Sabes que puedes habilitar la repeticion por defecto y Auto HD en la pagina de opciones?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Repetir "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Repetir "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Repetir un trozo "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Opciones"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Reproducido "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Reproducido "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Parar Video"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " veces"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " veces"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " hasta: "
+   },
+   "text_experimental": {
+      "description": "experiment features",
+      "message": " (*Experimental)"
+   },
+   "text_extension_by": {
+      "description": "Please do not change the name of the extension, just translate the term, by",
+      "message": "Looper for YouTube por "
+   },
+   "text_feedback": {
+      "description": "Encourage leaving reviews on chrome web store",
+      "message": "Deja tus comentarios y puntua 5 estrellas en la Tienda Web de Chrome, si te gusta repetir videos de YouTube con Looper for YouTube."
+   },
+   "text_full_changelog": {
+      "description": "link to change-log page",
+      "message": "Para todas las versiones anteriores, Click aqui."
+   },
+   "text_not_compatible": {
+      "description": "Not compatible with other extensions for YouTube that have similar function to use at the same time.",
+      "message": "No compatible con otras extensiones de YouTube que tengan una función similar a utilizar al mismo tiempo."
+   },
+   "text_outdate_chrome": {
+      "description": "as chrome.storage api is not available in version 19 or below, options saving is not working.",
+      "message": "Las opciones anteriores no funcionan en las versiones de Chrome 19 o posterior."
+   },
+   "text_refresh_page": {
+      "description": "After you save your options, refresh opened YouTube page.",
+      "message": "Después de guardar las opciones, refresca la pagina de YouTube abierta."
+   },
+   "text_support": {
+      "description": "please keep those html tags",
+      "message": "Cualquier problema o sugerencias por favor enviarlas a \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Support Page on CWS\u003C/a> o un e-mail a looperforyoutube@alvinhkh.com"
+   },
+   "text_tweet": {
+      "description": "maximum of 100 characters",
+      "message": "Looper for YouTube, impresionante extensión de Chrome que me deja repetir videos de YouTube con un solo clic."
+   },
+   "text_version": {
+      "description": "(Version) 1.0.0",
+      "message": "Versión"
+   },
+   "text_welcome_translation": {
+      "message": "Bienvenidas a las traducciones para tu idioma!"
+   },
+   "title_changelog": {
+      "description": "Change-log",
+      "message": "Versiones anteriores"
+   },
+   "title_extra_features": {
+      "description": "Extra Features",
+      "message": "Opciones Extra"
+   },
+   "title_feedback": {
+      "description": "Give us feedback",
+      "message": "Déjanos tus comentarios ★★★★★"
+   },
+   "title_share": {
+      "description": "Encourage sharing this extension on social media",
+      "message": "Comparte esta extensión con tus amigos/as para que puedan disfrutar repitiendo videos de YouTube como tú :)"
+   }
+}

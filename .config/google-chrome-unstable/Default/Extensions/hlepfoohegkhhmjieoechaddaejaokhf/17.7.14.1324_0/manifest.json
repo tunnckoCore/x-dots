@@ -1,0 +1,35 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}",
+         "strict_min_version": "52.0"
+      }
+   },
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "content.css" ],
+      "js": [ "jquery-3.slim.min.js", "content.js" ],
+      "matches": [ "https://github.com/*", "https://gist.github.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Simplifies the GitHub interface and adds useful features",
+   "homepage_url": "https://github.com/sindresorhus/refined-github",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwwyRHoLNKT8z39zk1nIrwu0x2uRskOrdjMZ0VRzMfnuuTKGvVPwimSCXrpy0OnHGpzhZTkNZVdVD6upbU6Pj07LOoXEbPmIRvFdICWFw8qD4NaNGdj0HqzPWiQuiFJvl0Pk1XbquPb+0lHPLnymDencTTTu/ttSjnIyzUbwUYoNPwsQnIelyGQH9300LXu4Srd9VKI4Gnd7u2vQ8Fsy5FlvhqtzmNTSh1fB3L3xhh0eBdg3Dgrd+4bNFnojlRH8q0R7yhmBwPUQNV2Sp/sfBsU2k8bVOoVdgBb2KAxl1/0HCvpeM5+XAhK+2oGa//+GjP9Bfa0kvXBhbySyLKhI1UwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "58",
+   "name": "Refined GitHub",
+   "optional_permissions": [ "http://*/*", "https://*/*" ],
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "17.7.14.1324"
+}

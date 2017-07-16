@@ -1,0 +1,24 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Weather"
+   },
+   "content_security_policy": "script-src 'self' https://s3.amazonaws.com https://www.google-analytics.com; object-src 'self'",
+   "description": "Hands down, the best way to get your weather in Chrome!",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzHNKWyPS0Cgxe833ty7hHxH/RxmWUyY0gSQG7qADhfhjWaBxm45r+Bpzc5bPBcYL0jPXEBtTNQL496vuE1ppP72//A97riVppc1M9bn0cNve6a3eG29QBmAUEgk0Tnssg7nZ8DCQQ5Re0N94baoPdQXWIjrZO8/ZVNBx+urOmPwIDAQAB",
+   "manifest_version": 2,
+   "name": "Weather",
+   "options_page": "options.html",
+   "permissions": [ "idle", "alarms", "geolocation", "notifications", "\u003Call_urls>", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.6"
+}

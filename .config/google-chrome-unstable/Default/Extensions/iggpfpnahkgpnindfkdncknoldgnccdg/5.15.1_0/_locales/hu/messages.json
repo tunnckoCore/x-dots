@@ -1,0 +1,194 @@
+{
+   "chrome_web_store": {
+      "message": "Chrome Internetes áruház"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum of 130 characters",
+      "message": "Egyetlen kattintással automatikusan ismételheted a videókat, beállíthatod az ismétlések számát, ill. az ismételt részt."
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "magyar"
+   },
+   "message_saved": {
+      "message": "Mentve"
+   },
+   "option_advanced_panel": {
+      "message": "Kiegészítő beállítások (ismétlések száma, részlet ismétlése)"
+   },
+   "option_auto": {
+      "message": "Automatikus"
+   },
+   "option_auto_loop": {
+      "message": "Ismétlés automatikus bekapcsolása"
+   },
+   "option_auto_player_size": {
+      "message": "A lejátszó alapértelmezett mérete"
+   },
+   "option_auto_quality": {
+      "message": "A videó alapértelmezett minősége"
+   },
+   "option_default_show_panel": {
+      "message": "A beállítások megjelenítése a \"Leirás\" helyet az oldal betöltése után (csak ha automatikusan be van kapcsolva az ismétlés ill. ha URL paraméter van megadva)"
+   },
+   "option_full_size": {
+      "message": "Teljes képernyő"
+   },
+   "option_keyboard_shortcut_loop": {
+      "message": "A \"p\" gyorsbillentyű engedélyezése az ismétlés ki/bekapcsolásához"
+   },
+   "option_keyboard_shortcut_pause": {
+      "message": "A \"szóköz\" engedélyezése gyorsbillentyűként a videó lejátszására/megállítására"
+   },
+   "option_large_size": {
+      "message": "Közepes"
+   },
+   "option_larger_size": {
+      "message": "Nagy"
+   },
+   "option_manual_loop": {
+      "message": "Ismétlés kikapcsolva (a videó megtekintése közben bekapcsolható)"
+   },
+   "option_savestate_loop": {
+      "message": "Az előző videó szerint"
+   },
+   "option_show_changelog": {
+      "message": "A változtatások megjelenítése a bővítmény frissítése után."
+   },
+   "option_small_size": {
+      "message": "Kicsi"
+   },
+   "script_button_hover": {
+      "description": "loop button hover pop-up tips",
+      "message": "Automatikus ismétlés"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Ismétlés"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Lista lejátszásának folytatása"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Kattintson duplán a jelenlegi idő beillesztéséhez"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "A részlet ismétlésének ki/bekapcsolásához kattintson duplán"
+   },
+   "script_from": {
+      "description": "loop in a portion, from",
+      "message": ""
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Elrejtés"
+   },
+   "script_information": {
+      "description": "information to promote user to option page",
+      "message": "Tudta hogy a beállításokban beállíthatja az ismétlés automatikus bekapcsolását, illetve az Auto HD opciót?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Ismételés "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Ismételés "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": "-ig"
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Részlet ismétlése: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Beállítások"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Lejátszva "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Lejátszva "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Leállítás"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " alkalommal"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " alkalommal"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": "-tól "
+   },
+   "text_experimental": {
+      "message": " (*Kísérleti)"
+   },
+   "text_extension_by": {
+      "message": "A YouTube ismétlőt készítette "
+   },
+   "text_feedback": {
+      "message": "Oszd meg észrevételeid és értékeld 5 csillaggal a Chrome Internetes áruházban, ha elnyerte tetszésed a YouTube ismétlő."
+   },
+   "text_full_changelog": {
+      "message": "A teljes listáért kattints ide."
+   },
+   "text_not_compatible": {
+      "message": "Nem kompatibilis más YouTube bővítményekkel, melyeknek hasonló a funkcionalitása."
+   },
+   "text_outdate_chrome": {
+      "message": "Az alábbi beállítások nem működnek Chrome 19-ben és nála régebbi verziókban."
+   },
+   "text_refresh_page": {
+      "message": "Miután mentetted a változtatásokat, frissítsd a nyitott YouTube oldalakat."
+   },
+   "text_support": {
+      "message": "Miden problémát és javaslatot kérem küldje el a \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Chrome internetes áruház support oldalán\u003C/a> vagy emailben a looperforyoutube@alvinhkh.com címre (angolul)"
+   },
+   "text_tweet": {
+      "message": "YouTube ismétlő - egy szuper Chrome bővítmény, hiszen egyetlen kattintással ismételhetem a videókat"
+   },
+   "text_version": {
+      "message": "Verzió"
+   },
+   "text_welcome_translation": {
+      "message": "Szívesen fogadunk fordításokat az általad használt nyelvre"
+   },
+   "title_changelog": {
+      "message": "Változások"
+   },
+   "title_extra_features": {
+      "message": "Haladó beállítások"
+   },
+   "title_feedback": {
+      "message": "Küldj visszajelzést ★★★★★"
+   },
+   "title_share": {
+      "message": "Oszd meg ezt a bővítményt a barátaiddal, hogy ők is élvezhessék a videók ismétlését, mint te :)"
+   }
+}

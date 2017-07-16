@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Screenshot Preview</title>
+        <link rel="stylesheet" type="text/css" href="static/css/preview.css" />
+        <script type="text/javascript" src="static/js/jquery.js"></script>
+        <script type="text/javascript" src="static/js/jquery.sketch.js"></script>
+        <script type="text/javascript" src="static/js/preview.js"></script>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <div id="header">
+            <button id="reset" class="fl">Reset</button>
+            <button id="marker" class="fl">Change Marker</button>
+            <div class="tip fl">Tip: Click and drag your mouse to draw</div>
+            
+            
+            
+            <button id="cancel" class="fr">X</button>
+            <button id="copy" class="fr">Copy</button>
+            <button id="download" class="fr">Save</button>
+            <button id="upload" class="fr">Share Screenshot</button>
+        </div>
+        <div id="marker_settings">
+                <div class="tip fl">Size</div>
+                <a href="#screenshot" data-size="5"><button class="fl">●</button></a>
+                <a href="#screenshot" data-size="10"><button class="fl" style="font-size: 24px;">●</button></a>
+                <a href="#screenshot" data-size="20"><button class="fl" style="font-size: 36px;">●</button></a>
+                <a href="#screenshot" data-size="30"><button class="fl" style="font-size: 46px;">●</button></a>
+                <div style="clear: both; overflow: hidden; padding-top: 4px;">
+                    <div class="tip fl">Color</div>
+                    <a href="#screenshot" data-color="#000"><button class="fl" style="background-color: #444">&nbsp;</button></a>
+                    <a href="#screenshot" data-color="#FA6900"><button class="fl" style="background-color: #FA6900">&nbsp;</button></a>
+                    <a href="#screenshot" data-color="#69D2E7"><button class="fl" style="background-color: #69D2E7">&nbsp;</button></a>
+                    <a href="#screenshot" data-color="#C7F464"><button class="fl" style="background-color: #C7F464">&nbsp;</button></a>
+                    <a href="#screenshot" data-color="#C44D58"><button class="fl" style="background-color: #C44D58">&nbsp;</button></a>
+                </div>
+            </div>
+        <div id="loading">
+            <div id="progress">
+                <div id="progress_bar"></div>
+                Saving your screenshot...
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,249 @@
+{
+   "chrome_web_store": {
+      "description": "Chrome Web Store",
+      "message": "Интернет-магазин Chrome"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum 130 characters",
+      "message": "Автоматическое повторение видеоклипа в один клик, а также повторение определённого участка видео выбранное количество раз."
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "Русский"
+   },
+   "message_saved": {
+      "description": "message shown after saving options",
+      "message": "Сохранено"
+   },
+   "option_advanced_panel": {
+      "description": "Checkbox, toggle loop panel for setting loop times and portion",
+      "message": "Расширенные настройки для повтора видео (Настройка количества раз повтора, настройка участка повтора)"
+   },
+   "option_auto": {
+      "description": "default/'auto' quality base on youtube selection",
+      "message": "По умолчанию (Автоматически)"
+   },
+   "option_auto_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip",
+      "message": "Автоматически повторять каждое видео"
+   },
+   "option_auto_player_size": {
+      "description": "Checkbox, set player size. (Default Youtube player size as) Small/Large/Larger",
+      "message": "Установить размер плеера YouTube по умолчанию: "
+   },
+   "option_auto_quality": {
+      "description": "Selectbox, set default video quality",
+      "message": "Автоматически устанавливать качество видео на"
+   },
+   "option_button": {
+      "description": "Selectbox, set visible button content",
+      "message": "Кнопка расширения показывается как"
+   },
+   "option_button_icon": {
+      "description": "selection option, icon only",
+      "message": "только иконка"
+   },
+   "option_button_iconandtext": {
+      "description": "selection option, icon and text",
+      "message": "иконка и текст"
+   },
+   "option_button_text": {
+      "description": "selection option, text only",
+      "message": "только текст"
+   },
+   "option_default_show_panel": {
+      "description": "Checkbox, check to show the LOOP panel instead of ABOUT tab upon page load, applies only when Auto Loop is enabled or URL parameter is set",
+      "message": "Показывать панель повтора вместо вкладки 'О' когда загружается новая страница (распространяется на случаи только когда автоматическое повторение включено или параметр URL установлен)"
+   },
+   "option_full_size": {
+      "description": "full-window player size",
+      "message": "Полноразмерный"
+   },
+   "option_keyboard_shortcut_loop": {
+      "description": "Checkbox, P key as keyboard shortcut for loop",
+      "message": "Использовать клавишу 'p' ('з') на клавиатуре для включения/выключения повторения"
+   },
+   "option_keyboard_shortcut_pause": {
+      "description": "Checkbox, spacebar as keyboard shortcut for play/pause video, applies to anywhere on Youtube pages",
+      "message": "Использовать 'пробел' для воспроизведения/приостановки видео в любом месте страницы"
+   },
+   "option_large_size": {
+      "description": "large size",
+      "message": "Широкий"
+   },
+   "option_larger_size": {
+      "description": "larger size",
+      "message": "Более широкий"
+   },
+   "option_manual_loop": {
+      "description": "Radiobox, start loop manually for every clip",
+      "message": "Повторять каждое видео вручную"
+   },
+   "option_savestate_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip if state on previous video is looping",
+      "message": "Автоматически повторять видеоклип, если предыдущее видео повторялось"
+   },
+   "option_show_changelog": {
+      "description": "Checkbox, show changelog page when user opens YouTube after updating extension",
+      "message": "Показывать список изменений когда расширение обновилось"
+   },
+   "option_small_size": {
+      "description": "small size",
+      "message": "Маленький"
+   },
+   "script_and": {
+      "description": "Played 1 times ( and ) Played 1 minutes",
+      "message": " и "
+   },
+   "script_button_hover": {
+      "description": "hover tips, loop button",
+      "message": "Повторить это автоматически"
+   },
+   "script_button_hover_disabled_watchqueue": {
+      "description": "hover tips, loop button, google cast is not working",
+      "message": "Не работает с Google Cast"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Повторить"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Продолжить вопроизводить плейлист"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Щёлкните дважды, чтобы узнать текущее время"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Щёлкните дважды, чтобы повторить этот участок видео"
+   },
+   "script_from": {
+      "description": "loop portion, from",
+      "message": "от "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Скрыть это"
+   },
+   "script_information": {
+      "description": "Promotion on options page for user",
+      "message": "Вы знали, что можете установить повтор видео по умолчанию и автоматическое установление HD качества видео на странице настроек?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Повторять "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Повторять "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Повторить участок: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " минута(ы)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " минута(ы)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Настройки"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Воспроизведено "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Воспроизведено "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Остановить видео"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " раз(а)"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " раз(а)"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " до "
+   },
+   "text_experimental": {
+      "description": "experimental features",
+      "message": " (*Экспериментальная функция)"
+   },
+   "text_extension_by": {
+      "description": "Please do not change the name of the extension, just translate the term, by",
+      "message": "Looper for YouTube от "
+   },
+   "text_feedback": {
+      "description": "Encourage users leaving reviews on chrome web store",
+      "message": "Если вам нравится повторять видеоклипы с помощью Looper for YouTube, пожалуйста, оставьте свой комментарий и поставьте 5 звёзд расширению в интернет-магазине Chrome."
+   },
+   "text_full_changelog": {
+      "description": "link to change-log page",
+      "message": "Для просмотра всего списка изменений, нажмите здесь. (На английском языке)"
+   },
+   "text_not_compatible": {
+      "description": "Not compatible with other extensions for YouTube that have similar function to use at the same time.",
+      "message": "Не совместим с другими расширениями для YouTube, которые имеют аналогичные функции."
+   },
+   "text_outdate_chrome": {
+      "description": "as chrome.storage api is not available in version 19 or below, options saving is not working.",
+      "message": "Опции, указанные выше, не будут работать в Chrome версии 19 или ниже."
+   },
+   "text_refresh_page": {
+      "description": "After options are saved, refresh and open YouTube page.",
+      "message": "После того как настройки были сохранены, обновите и откройте страницу YouTube."
+   },
+   "text_support": {
+      "description": "please keep those html tags",
+      "message": "При люой проблеме или предложении, пожалуйста, пишите \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Страницу поддержки на сайте\u003C/a> или электронную почту looperforyoutube@alvinhkh.com (на английском языке)"
+   },
+   "text_tweet": {
+      "description": "maximum 100 characters",
+      "message": "Looper for YouTube, удивительное расширение для Chrome, позволяющее зациклить видео одним кликом."
+   },
+   "text_version": {
+      "description": "(Version) 1.0.0",
+      "message": "Версия"
+   },
+   "text_welcome_translation": {
+      "message": "Добро пожаловать на страницу натроек на вашем языке!"
+   },
+   "title_changelog": {
+      "description": "Change-log (in English)",
+      "message": "Список изменений (на английском языке)"
+   },
+   "title_extra_features": {
+      "description": "Extra Features",
+      "message": "Дополнительные возможности"
+   },
+   "title_feedback": {
+      "description": "Give us feedback",
+      "message": "Оставьте своё мнение ★★★★★"
+   },
+   "title_share": {
+      "description": "Encourage sharing extension on social media",
+      "message": "Поделитесь этим расширением со своими друзьями, чтобы они могли так же, как и вы, зацикливать видео на YouTube с удовольствием :)"
+   }
+}

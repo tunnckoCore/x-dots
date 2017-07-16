@@ -1,0 +1,249 @@
+{
+   "chrome_web_store": {
+      "description": "Chrome Web Store",
+      "message": "Chrome Web Mağazası"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum 130 characters",
+      "message": "Videoları TEK-TIK ile tekrarlama. Otomatik Tekrarlama, tekrarlama süresi, tekrarlama aralığı gibi ayarlanabilir özellikler."
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "Türkçe"
+   },
+   "message_saved": {
+      "description": "message shown after saving options",
+      "message": "Kaydedildi"
+   },
+   "option_advanced_panel": {
+      "description": "Checkbox, toggle loop panel for setting loop times and portion",
+      "message": "Gelişmiş tekrarlama ayarları (Tekrar sayısı, tekrar aralığı)"
+   },
+   "option_auto": {
+      "description": "default/'auto' quality base on youtube selection",
+      "message": "Varsayılan (Otomatik)"
+   },
+   "option_auto_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip",
+      "message": "Her videoyu otomatik tekrarla"
+   },
+   "option_auto_player_size": {
+      "description": "Checkbox, set player size. (Default Youtube player size as) Small/Large/Larger",
+      "message": "Oynatıcının varsayılan boyutu olarak şunu ayarla"
+   },
+   "option_auto_quality": {
+      "description": "Selectbox, set default video quality",
+      "message": "Videonun varsayılan kalitesini şu olarak ayarla"
+   },
+   "option_button": {
+      "description": "Selectbox, set visible button content",
+      "message": "Tekrar butonu gösterimi"
+   },
+   "option_button_icon": {
+      "description": "selection option, icon only",
+      "message": "sadece simge"
+   },
+   "option_button_iconandtext": {
+      "description": "selection option, icon and text",
+      "message": "simge ve yazı"
+   },
+   "option_button_text": {
+      "description": "selection option, text only",
+      "message": "sadece yazı"
+   },
+   "option_default_show_panel": {
+      "description": "Checkbox, check to show the LOOP panel instead of ABOUT tab upon page load, applies only when Auto Loop is enabled or URL parameter is set",
+      "message": "Sayfa yüklenirken 'Hakkında' yerine tekrar panelini göster(Sadece, Otomatik Tekrar veya URL çubuğuna bir şey girildiğinde çalışır)"
+   },
+   "option_full_size": {
+      "description": "full-window player size",
+      "message": "Tam ekran"
+   },
+   "option_keyboard_shortcut_loop": {
+      "description": "Checkbox, P key as keyboard shortcut for loop",
+      "message": "Tekrarlamayı açıp kapatmak için 'P' kısayolunu etkinleştir"
+   },
+   "option_keyboard_shortcut_pause": {
+      "description": "Checkbox, spacebar as keyboard shortcut for play/pause video, applies to anywhere on Youtube pages",
+      "message": "Videoyu başlatmak veya durdurmak için 'Spacebar' kısayolunu etkinleştir"
+   },
+   "option_large_size": {
+      "description": "large size",
+      "message": "Geniş"
+   },
+   "option_larger_size": {
+      "description": "larger size",
+      "message": "Daha geniş"
+   },
+   "option_manual_loop": {
+      "description": "Radiobox, start loop manually for every clip",
+      "message": "Videoyu manuel olarak tekrarla"
+   },
+   "option_savestate_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip if state on previous video is looping",
+      "message": "Videoyu otomatik olarak önceki duruma göre tekrarla"
+   },
+   "option_show_changelog": {
+      "description": "Checkbox, show changelog page when user opens YouTube after updating extension",
+      "message": "Eklentiye güncelleştirme geldiğinde yama notlarını göster"
+   },
+   "option_small_size": {
+      "description": "small size",
+      "message": "Küçük"
+   },
+   "script_and": {
+      "description": "Played 1 times ( and ) Played 1 minutes",
+      "message": " ve "
+   },
+   "script_button_hover": {
+      "description": "hover tips, loop button",
+      "message": "Otomatik olarak tekrarla"
+   },
+   "script_button_hover_disabled_watchqueue": {
+      "description": "hover tips, loop button, google cast is not working",
+      "message": "İzleme sırası ile çalışmıyor"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Tekrarla"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Çalma listesini çalmaya devam et"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Şimdiki zaman için iki kez tıkla"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Bu aralıkta başlatmak için iki kez tıkla"
+   },
+   "script_from": {
+      "description": "loop portion, from",
+      "message": ""
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Bunu gizle"
+   },
+   "script_information": {
+      "description": "Promotion on options page for user",
+      "message": "Ayarlar sayfasından varsayılan tekrarlamayı ve Otomatik HD özelliğini açabileceğini biliyor muydun?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": ""
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": ""
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": " e kadar"
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Aralıkla tekrarla: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " dakika tekrarla"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " dakika tekrarlandı"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Ayarlar"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": ""
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": ""
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Videoyu durdur"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " kez tekrarla"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " kez tekrarlandı"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " den "
+   },
+   "text_experimental": {
+      "description": "experimental features",
+      "message": " (*Deneysel)"
+   },
+   "text_extension_by": {
+      "description": "Please do not change the name of the extension, just translate the term, by",
+      "message": "Looper for YouTube AlvinHKH tarafından yapılmıştır."
+   },
+   "text_feedback": {
+      "description": "Encourage users leaving reviews on chrome web store",
+      "message": "Eğer Looper for Youtube ile bütün videoları tekrarlamayı sevdiyseniz, yorum yazın ve bizi 5 yıldız verin."
+   },
+   "text_full_changelog": {
+      "description": "link to change-log page",
+      "message": "Bütün yama notları için, buraya tıklayınız."
+   },
+   "text_not_compatible": {
+      "description": "Not compatible with other extensions for YouTube that have similar function to use at the same time.",
+      "message": "Diğer benzer fonksiyonlu YouTube eklentileri ile uyumlu değil"
+   },
+   "text_outdate_chrome": {
+      "description": "as chrome.storage api is not available in version 19 or below, options saving is not working.",
+      "message": "Ayarlar Chrome'un 19 ve altı sürümleriyle çalışmaz."
+   },
+   "text_refresh_page": {
+      "description": "After options are saved, refresh and open YouTube page.",
+      "message": "Ayarlarınızı kaydettikten sonra, sayfayı yenileyin ve YouTube'u tekrar açın"
+   },
+   "text_support": {
+      "description": "please keep those html tags",
+      "message": "Herhangi bir problem veya öneri için \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Chrome Web Mağazası Yardım sayfası\u003C/a> na gönderin veya looperforyoutube@alvinhkh.com (İngilizce) e-mail adresine mail atın"
+   },
+   "text_tweet": {
+      "description": "maximum 100 characters",
+      "message": "Looper for Youtube, videoları tek tık ile tekrarlatmaya yarayan mükemmel bir Chrome eklentisi."
+   },
+   "text_version": {
+      "description": "(Version) 1.0.0",
+      "message": "Sürüm"
+   },
+   "text_welcome_translation": {
+      "message": "Dilinizin çevirisinden merhaba!"
+   },
+   "title_changelog": {
+      "description": "Change-log (in English)",
+      "message": "Yama notları (İngilizce)"
+   },
+   "title_extra_features": {
+      "description": "Extra Features",
+      "message": "Ek Özellikler"
+   },
+   "title_feedback": {
+      "description": "Give us feedback",
+      "message": "Geri bildirim verin ★★★★★"
+   },
+   "title_share": {
+      "description": "Encourage sharing extension on social media",
+      "message": "Arkadaşlarınızında sizi gibi bu eklentinden yararlanması için bu eklentiyi paylaşın :)"
+   }
+}

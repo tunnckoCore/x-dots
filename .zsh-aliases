@@ -1,0 +1,76 @@
+# ~/.zsh_aliases, ZSH 5.3+
+# July 15, 2017
+# Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)
+# Release under the MIT License, 2017
+
+alias zshc="nano ~/.zsh-charlike"
+alias ali="nano ~/.zsh-aliases"
+
+alias atom="atom -d -a"
+alias home="cd $HOME"
+alias rage="cd $RAGE"
+alias R="cd $RAGE"
+alias cl="clear"
+alias c="clear"
+alias mkdir='mkdir -pv'
+alias grep="grep --color=tty -d skip"
+alias opn="xdg-open"
+alias sk="screenkey"
+alias df="df -h"
+alias free="free -m"
+alias fixit="sudo rm -f /var/lib/pacman/db.lck && sudo pacman-mirrors -g && sudo pacman -Syyuu && sudo pacman -Suu"
+
+# replace `*` with `x` to avoid expansion
+math() {
+    echo "scale=2 ; $*" | sed -e "s:x:*:g" | sed -e "s:,::g" | bc
+}
+
+# Dirs first
+alias lsal="ls --color=auto -alh --group-directories-first -F"
+alias ll="ls --color=auto -alh --group-directories-first -F"
+
+# zsh "k" plugin
+alias k="k --all --human"
+
+# Github token, requires xclip
+alias gtok="xclip -sel clip < $RAGE/.github-token && echo 'Copied!'"
+alias gtoken="echo $GIT_CONFIG_TOKEN"
+
+# requires `xsel`
+alias pbcopy="xsel --clipboard --input"
+alias pbpaste="xsel --clipboard --output"
+
+# ensurance
+alias rm="rm -i --preserve-root"
+
+# confirmation #
+alias mv="mv -i"
+alias cp="cp -i"
+alias ln="ln -i"
+alias cp="cp -i"
+
+# Parenting changing perms on / #
+alias chown="chown --preserve-root"
+alias chmod="chmod --preserve-root"
+alias chgrp="chgrp --preserve-root"
+
+# Stop after sending count ECHO_REQUEST packets #
+alias ping='ping -c 5'
+
+# ArchLinux
+alias pacmir='sudo reflector -p http -l 50 -f 20 --sort rate --save /etc/pacman.d/mirrorlist'
+alias pacyy='sudo pacman -Syy'    # 'force refresh'    - force sync refresh mirrorlists
+alias paco='sudo pacman -Sc && sudo pacman-optimize'
+alias pacs="pacman -Ss"           # '[s]earch'         - search for a package using one or more keywords
+alias paci="pacman -Si"           # '[i]nfo'           - show information about a package
+
+# More Git
+alias gcmsg="git commit -S -m"
+alias gplm="git pull origin master"
+alias gcz="git cz"
+alias gall="gaa"
+alias gitback="git back && git push -f"
+
+# require: github/hub
+alias git="hub"
+alias gcr="git create"

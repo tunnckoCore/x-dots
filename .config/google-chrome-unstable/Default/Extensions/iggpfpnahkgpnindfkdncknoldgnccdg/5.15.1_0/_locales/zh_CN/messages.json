@@ -1,0 +1,99 @@
+{
+   "extension_description": {
+      "message": "一键自动重播 YouTube 視頻，还可以设置 默认自动重播每段視頻、重播多少次、重播某个部分"
+   },
+   "extension_name": {
+      "message": "Looper for YouTube - 自动重播"
+   },
+   "language": {
+      "message": "中文 (简体)"
+   },
+   "script_and": {
+      "description": "Played 1 times ( and ) Played 1 minutes",
+      "message": " & "
+   },
+   "script_button_hover": {
+      "description": "loop button hover pop-up tips",
+      "message": "自动重复播放此视频"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "自动重播"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "继续播放播放清单"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "双击获取当前时间"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "双击重复播放这一个部分"
+   },
+   "script_from": {
+      "description": "loop in a portion, from",
+      "message": "從 "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "隱藏"
+   },
+   "script_information": {
+      "description": "information to promote user to option page",
+      "message": "你知道你可以在选项中设置 默认启动自动重复 和 自动设定影片画质为 HD 吗？"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "自动重复播放 "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "自动重复播放 "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "重复播放一部分： "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " 分钟"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " 分钟"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "选项"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "播放了 "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "播放了 "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "停止"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " 次"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " 次"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " 到 "
+   }
+}

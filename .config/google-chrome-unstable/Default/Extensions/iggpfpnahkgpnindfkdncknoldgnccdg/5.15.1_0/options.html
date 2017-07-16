@@ -1,0 +1,97 @@
+<!--//
+// Looper for YouTube
+// http://looperforyoutube.alvinhkh.com
+// Copyright (c) 2011-2017, AlvinHKH
+// http://alvinhkh.com
+// All rights reserved.
+//-->
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<meta name="twitter:widgets:csp" content="on">
+<title>Looper for YouTube</title>
+<link rel="stylesheet" type="text/css" media="all" href="options.css" />
+</head>
+<body class="embedded">
+	<div id="main_content">
+		<header>
+			<h1><a id="extension_name" href="http://looperforyoutube.alvinhkh.com" target="_blank">Looper for YouTube</a></h1>
+		</header>
+		<section>
+		<div>
+			<p id="text_welcome_translation">Welcome translations from your language!</p>
+			<p id="text_support">Any problems or suggestions please submit to <a id="support_page" href="#" target="_blank">Support Page on CWS</a> or email to looperforyoutube@alvinhkh.com</p>
+		</div>
+		</section>
+		<section>
+		<div>
+			<div>
+				<div class="radiobox"><label><input type="radio" id="option_loop_manual" name="option_loop" value="false" /><span>Loop every video manually</span></label></div>
+				<div class="radiobox"><label><input type="radio" id="option_loop_savestate" name="option_loop" value="saveState" /><span>Automatically loop videos according to previous state</span></label></div>
+				<div class="radiobox"><label><input type="radio" id="option_loop_auto" name="option_loop" value="true" /><span>Automatically loop every video</span></label></div>
+			</div>
+			<div>
+				<div class="selectbox"><label><span>Loop button show</span> <select id="option_button"><option id="option_button_iconandtext" value="all">icon and text</option><option id="option_button_icon" value="icon">icon only</option><option id="option_button_text" value="text">text only</option></select></label></div>
+				<div class="checkbox"><label><input type="checkbox" id="ytShortcut" /><span>Enable 'p' as keyboard shortcut for switching looping on/off</span></label></div>
+				<div class="checkbox"><label><input type="checkbox" id="ytLoopPanel" /><span>Advanced loop options</span></label></div>
+			</div>
+			<div id="extra_features">
+				<h4 id="title_extra_features">Extra Features</h4>
+				<div class="selectbox"><label><span>Auto-set video quality to</span> <select id="ytQuality"><option id="option_auto" value="default">Auto</option><option value="highres">2160p</option><option value="hd1440">1440p</option><option value="hd1080">1080p</option><option value="hd720">720p</option><option value="large">480p</option><option value="medium">360p</option><option value="small">240p</option><option value="tiny">144p</option></select></label></div>
+				<div class="checkbox"><label><input type="checkbox" id="ytShortcut_Pause" /><span>Enable 'spacebar' as keyboard shortcut for play/pause video</span></label></div>
+				<div class="checkbox selectbox"><label><input type="checkbox" id="ytPlayerSizeEnable" /><span>Set player size by default to</span> </label><select id="ytPlayerSize"><option id="option_small_size" value="normal">Small</option><option id="option_large_size" value="wide">Large</option><option id="option_full_size" value="fullsize">Full-size</option></select><span id="text_experimental"> (*Experimental)</span></div>
+				<div class="checkbox"><label><input type="checkbox" id="option_show_changelog" /><span>Show changelog when the extension is updated</span></label></div>
+			</div>
+			<div id="message_text">&nbsp;</div>
+			<p><span id="text_low_video_quality">Note: Go to YouTube settings page, Choose "I have a slow connection. Never play higher-quality video" under "Video playback quality", in order to auto-set a low video quality like 240p. (<a href="https://www.youtube.com/account_playback" target="_blank">https://www.youtube.com/account_playback</a>)</span></p>
+			<p>** <span id="text_not_compatible">Not compatible with other extensions for YouTube that have similar functions.</span></p>
+			<span id="text_outdate_chrome"><p>** <span id="oldchrome-19">Options above will not work in Chrome version 19 or below.</span></p></span>
+		</div>
+		</section>
+		<div class="clear line"></div>
+		<section>
+		<div>
+			<p id="title_feedback" style="font-weight: bold">Give us feedback &#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p>
+			<p id="text_feedback">Leave some comments and rate 5 stars in Chrome Web Store, if you enjoy looping videos with Looper for YouTube.</p>
+			<p>&gt;&gt; <a id="chrome_web_store" href="http://looperforyoutube.alvinhkh.com/reviews" target="_blank">Chrome Web Store</a> &lt;&lt;</p>
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin: 0 auto; width: 150px" target="_blank">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="Y64XAKQ4PAC2A">
+				<input type="image" src="paypal_button.webp" name="submit" alt="PayPal">
+			</form>
+		</div>
+		</section>
+		<div class="clear line"></div>
+		<section>
+		<div>
+			<p id="title_share" style="font-weight: bold">Share this extension with your friends so they can enjoy looping YouTube videos like you :)</p>
+			<div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Looper for YouTube, awesome Chrome extension that let me loop video with one-click." data-url="http://goo.gl/TSssB" data-hashtags="LooperForYouTube" data-count="horizontal" data-size="medium">Tweet</a></div>
+			<div class="clear"></div>
+			<div class="g-plusone" data-annotation="inline" data-href="http://looperforyoutube.alvinhkh.com"></div>
+			<div class="clear"></div>
+			<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Flooperforyoutube.alvinhkh.com&amp;width=450&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=80&amp;appId=260967640711213" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+			<div class="clear"></div>
+		<div>
+		</section>
+		<div class="clear line"></div>
+		<section id="changelog">
+		<h3 id="title_changelog">Change-log</h3>
+		<div>
+			<ul>
+				<li>5.15.0 - 2017/06/04 - Bugfix: loop. Bugfix: slider drag. Remove support flash version player. #VIIV</li>
+				<li>&nbsp;</li>
+				<li><a id="text_full_changelog" href="http://looperforyoutube.alvinhkh.com/changelog" target="_blank">For the whole change-log, Click here.</a></li>
+			</ul>
+		</div>
+		</section>
+		<footer>
+			<p>
+				&copy;&nbsp;<span id="text_extension_by">Looper for YouTube by </span><a id="author" href="http://www.alvinhkh.com" target="_blank">AlvinHKH</a>
+				<label id="versionGroup">- <span id="text_version">Version</span>&nbsp;<span id="version"></span></label>
+			</p>
+		</footer>
+	</div>
+<script type="text/javascript" src="options.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+</body>
+</html>

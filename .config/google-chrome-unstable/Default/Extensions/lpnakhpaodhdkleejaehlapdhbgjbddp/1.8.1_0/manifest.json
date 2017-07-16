@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "api.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "content.css" ],
+      "exclude_matches": [ "https://github.com/*/dotfiles*" ],
+      "js": [ "api.js", "node_modules/github-injection/index.js", "content.js" ],
+      "matches": [ "https://github.com/*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Hide nonessential files from the file browser",
+   "homepage_url": "https://github.com/sindresorhus/hide-files-on-github",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjbvd9TzsVkYFSVCiPcGqx9/sFX5ATxmqDOhYvCy33bvAqdILrYPzERokPscwvKGuOs4wbBs9pPMm0r3+fGwJdRTF0Ta8jPQutSbIQV6hybJb6e5GCuXW5lLa1hwAxbgRjcwOFgNVvEEWrTzkjexOKggoSbUHk1Adxt2sem71wY1LU+TXa7DRqbdsV8353q9FfapcrtRxPLEzMi0itfQTaWGT3vit06oA1whUYzXbLNaSXILBiTu5VfDUc8bDmlcPFAne4gVut6tELSFzCHiDHIuvBn/ANXDD7zb0kaFi72aCDVSBQPTz+zVrz5L98yxFstGbDXixzcJZr81mgT0MJQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "51",
+   "name": "Hide Files on GitHub",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "https://github.com/*/*", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8.1"
+}

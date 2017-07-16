@@ -1,0 +1,26 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "Screenshot"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Hands down, the best way to save and share screen captures of webpages",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCOXgBvrL3AVaNS3UYmHlkJ1IFYS4urdIe4gIcfl+pmmzyQpPAmuuuxMPLwYusMPgRfLOrMwS2GPLjFt3DSp1WzJByO4/6oVTUZCRz5zXQY2kuJOmGo0o2/nSZBGH7FO1vemN5arUeb4AGkwH/LFkyGEZFGdPuBOv9V17pCBPeh2QIDAQAB",
+   "manifest_version": 2,
+   "name": "Screenshot Webpages",
+   "optional_permissions": [ "clipboardWrite" ],
+   "permissions": [ "tabs", "\u003Call_urls>", "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2",
+   "web_accessible_resources": [ "region.html" ]
+}

@@ -1,0 +1,19 @@
+{
+   "background": {
+      "peristent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "inject.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Insert GIFs from Giphy.com into GitHub comments",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxXTSEOUK2Z39WLOjUEfiBOMR3rsWOTQ9cOyPP7ioe3l4WwV4/bEEpoQg5uUhGppeyTSCheYGaN0upYW/Qh4Mn5ethFNZ1jiKYmAQrxuWdlwg24UG3wVj1V1qyxBwNrGUCUyFebxNc6onvDZAIL+h1leHIGxM+gT4IcO8ILRNvHJWclLtffWPcBbiiSVp2cgLj65fPGIQUfqKa6JhXGaOqj5TP5F4Mbdx/ARHsdVaZJnIKFG9MAjCbNHEQUi0zFqxGYg/rKiiZZmvygI22ujzYOPFGQ63KEefJks3mzLdEABSDHfnRSeEZnWBa4c6RbYMQ6aOdR/yL2OIRAgFLFF15wIDAQAB",
+   "manifest_version": 2,
+   "name": "GifHub",
+   "permissions": [ "https://api.giphy.com/v1/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.8",
+   "web_accessible_resources": [ "bundle.js", "extension.css" ]
+}

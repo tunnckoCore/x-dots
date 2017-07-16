@@ -1,0 +1,196 @@
+{
+   "chrome_web_store": {
+      "message": "Chrome Web Store"
+   },
+   "extension_description": {
+      "message": "Vous permet en UN SEUL CLIC de faire en sorte que les vidéos se relancent automatiquement une fois finies..."
+   },
+   "extension_name": {
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "message": "Français"
+   },
+   "message_saved": {
+      "message": "Sauvegardé"
+   },
+   "option_advanced_panel": {
+      "message": "Options avancées (Répéter un certain nombre de fois et/ou juste une portion)"
+   },
+   "option_auto": {
+      "message": "Défaut (auto)"
+   },
+   "option_auto_loop": {
+      "description": "Bouton radio, lance automatiquement la lecture en boucle sur chaque vidéo",
+      "message": "Lancer automatiquement la lecture en boucle toutes les vidéos"
+   },
+   "option_auto_player_size": {
+      "message": "Dimensionnement automatique de la vidéo : "
+   },
+   "option_auto_quality": {
+      "message": "Définir la qualité vidéo par défaut à "
+   },
+   "option_default_show_panel": {
+      "message": "Affiche le panneau des options de répétition si l'option est sélectionnée avant le chargement de la page"
+   },
+   "option_full_size": {
+      "description": "taille de lecteur pleine fenêtre",
+      "message": "Pleine fenêtre"
+   },
+   "option_keyboard_shortcut_loop": {
+      "message": "Utiliser 'p' comme raccourci clavier pour la lecture en boucle"
+   },
+   "option_keyboard_shortcut_pause": {
+      "message": "Utiliser 'espace' comme raccourci clavier pour lire / mettre en pause la vidéo"
+   },
+   "option_large_size": {
+      "message": "Grand"
+   },
+   "option_larger_size": {
+      "message": "Très grand"
+   },
+   "option_manual_loop": {
+      "description": "Bouton radio, lance manuellement la lecture en boucle sur chaque vidéo",
+      "message": "Lancer manuellement la lecture en boucle sur les vidéos"
+   },
+   "option_savestate_loop": {
+      "description": "Bouton radio, lance automatiquement la lecture en boucle sur chaque nouvelle vidéo si la précédente vidéo était lue en boucle",
+      "message": "Lancer automatiquement la lecture en boucle les vidéos si la précédente vidéo vue était lue en boucle"
+   },
+   "option_show_changelog": {
+      "description": "changelog page will be shown when user open YouTube after the extension is updated",
+      "message": "Afficher l'historique des modifications après que l'extension ait été mise à jour"
+   },
+   "option_small_size": {
+      "message": "Petit"
+   },
+   "script_button_hover": {
+      "description": "loop button hover pop-up tips",
+      "message": "Relancer automatiquement la vidéo"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Répéter"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Continuer à lire la playlist"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Double-cliquer pour récupérer l'instant courant"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Double-cliquer pour lancer la lecture en boucle de cette portion"
+   },
+   "script_from": {
+      "description": "loop in a portion, from",
+      "message": "de "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Cacher"
+   },
+   "script_information": {
+      "description": "information to promote user to option page",
+      "message": "Savez-vous que vous pouvez définir par défaut la lecture en boucle ainsi que l'Auto HD sur la page d'options ?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Répéter "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Répéter "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Répéter une portion : "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Options"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Répété "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Répété "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Arrêter la vidéo"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " fois"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " fois"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " à "
+   },
+   "text_experimental": {
+      "message": " (*Expérimental)"
+   },
+   "text_extension_by": {
+      "message": "Looper for YouTube, par "
+   },
+   "text_feedback": {
+      "message": "Si vous appréciez Looper for Youtube, laissez des commentaires et donnez nous 5 étoiles dans le Chrome Web Store :)"
+   },
+   "text_full_changelog": {
+      "message": "Pour l'historique complet des modifications, cliquez ici."
+   },
+   "text_not_compatible": {
+      "message": "Incompatible avec d'autres extensions YouTube ayant des fonctionnalités similaires si activées en même temps."
+   },
+   "text_outdate_chrome": {
+      "message": "Les options ci-dessus ne fonctionnent pas avec les versions 19 et antérieures de Chrome."
+   },
+   "text_refresh_page": {
+      "message": "Après avoir sauvegardé vos options, refraîchissez la page YouTube."
+   },
+   "text_support": {
+      "message": "Un problème ? Une suggestion ? RDV sur la \u003Ca id='support_page' href='#' target='_blank'>Page d'Aide du CWS\u003C/a> ou envoyez un mail à looperforyoutube@alvinhkh.com (en anglais)"
+   },
+   "text_tweet": {
+      "message": "Looper for YouTube, super extension Chrome qui permet de lire en boucle les vidéos en un seul clic."
+   },
+   "text_version": {
+      "message": "Version"
+   },
+   "text_welcome_translation": {
+      "message": ""
+   },
+   "title_changelog": {
+      "message": "Historique des modifications (en anglais)"
+   },
+   "title_extra_features": {
+      "message": "Options supplémentaires"
+   },
+   "title_feedback": {
+      "message": "Évaluez nous ★★★★★"
+   },
+   "title_share": {
+      "message": "Partagez cette extension avec vos amis pour leur permettre de lire en boucle les vidéos YouTube comme vous :)"
+   }
+}

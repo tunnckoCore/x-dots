@@ -1,0 +1,155 @@
+{
+    "about_add_new_rule": {
+        "message": "Legg til ny regel"
+    }, 
+    "about_and": {
+        "message": ", og"
+    }, 
+    "about_created_by": {
+        "message": "Laga av"
+    }, 
+    "about_donate_eff": {
+        "message": "Donera \u00e5t EFF"
+    }, 
+    "about_donate_tor": {
+        "message": "Donera \u00e5t Tor"
+    }, 
+    "about_ext_description": {
+        "message": "Krypter veven! Bruk HTTPS-tryggleik automatisk p\u00e5 mange sider."
+    }, 
+    "about_ext_name": {
+        "message": "HTTPS Everywhere"
+    }, 
+    "about_librarians": {
+        "message": "Regelsettbibliotekarar"
+    }, 
+    "about_many_contributors": {
+        "message": "Mange mange bidragsytarar, medrekna"
+    }, 
+    "about_noscript": {
+        "message": "Dessutan er delar av HTTPS Everywhere basert p\u00e5 kode fr\u00e5 NoScript av Giorgio Maone og andre. Me er takksame for det framifr\u00e5 arbeidet deira!"
+    }, 
+    "about_or": {
+        "message": "eller"
+    }, 
+    "about_thanks": {
+        "message": "Takk til"
+    }, 
+    "about_title": {
+        "message": "Om HTTPS Everywhere"
+    }, 
+    "about_tor_lang_code": {
+        "message": "en"
+    }, 
+    "about_version": {
+        "message": "Versjon"
+    }, 
+    "chrome_add_new_rule": {
+        "message": "Legg til ein ny regel for denne nettstaden"
+    }, 
+    "chrome_add_rule": {
+        "message": "Legg til ein regel for denne nettstaden"
+    }, 
+    "chrome_always_https_for_host": {
+        "message": "Nytt alltid https for denne verten"
+    }, 
+    "chrome_experimental_rules": {
+        "message": "Reglar p\u00e5 pr\u00f8ve"
+    }, 
+    "chrome_experimental_rules_description": {
+        "message": "Kan vera \u00e5rsak \u00e5t \u00e5tvaringar eller brot. Slegne av som standard."
+    }, 
+    "chrome_hide_advanced": {
+        "message": "G\u00f8ym avansert"
+    }, 
+    "chrome_host": {
+        "message": "Vert:"
+    }, 
+    "chrome_redirect_to": {
+        "message": "Omdiriger til"
+    }, 
+    "chrome_regex": {
+        "message": "Som passar med regex"
+    }, 
+    "chrome_rule_name": {
+        "message": "Namn p\u00e5 regelen:"
+    }, 
+    "chrome_show_advanced": {
+        "message": "Vis avansert"
+    }, 
+    "chrome_stable_rules": {
+        "message": "St\u00f8duge reglar"
+    }, 
+    "chrome_stable_rules_description": {
+        "message": "Tving krypterte tilkoplingar \u00e5t desse nettstadane:"
+    }, 
+    "chrome_status_cancel_button": {
+        "message": "Avbryt"
+    }, 
+    "menu_about": {
+        "message": "Om HTTPS Everywhere"
+    }, 
+    "menu_blockUnencryptedRequests": {
+        "message": "Blokker alle ukrypterde fyrespurnader"
+    }, 
+    "menu_donate_eff_imperative": {
+        "message": "Doner til EFF"
+    }, 
+    "menu_globalDisable": {
+        "message": "Sl\u00e5 av HTTPS Everywhere"
+    }, 
+    "menu_globalEnable": {
+        "message": "Sl\u00e5 p\u00e5 HTTPS Everywhere"
+    }, 
+    "menu_observatory": {
+        "message": "SSL Observatory Innstillingar"
+    }, 
+    "menu_showCounter": {
+        "message": "Vis teljar"
+    }, 
+    "menu_viewAllRules": {
+        "message": "Vis alle reglane"
+    }, 
+    "prefs_disable_all": {
+        "message": "Sl\u00e5 av alle"
+    }, 
+    "prefs_enable_all": {
+        "message": "Sl\u00e5 p\u00e5 alle"
+    }, 
+    "prefs_enabled": {
+        "message": "Sl\u00e5tt p\u00e5"
+    }, 
+    "prefs_here_link": {
+        "message": "her"
+    }, 
+    "prefs_list_caption": {
+        "message": "Kva for HTTPS vidaresendingsreglar skal gjelde?"
+    }, 
+    "prefs_notes": {
+        "message": "Merknadar"
+    }, 
+    "prefs_reset_default": {
+        "message": "Still tilbake til standard"
+    }, 
+    "prefs_reset_defaults": {
+        "message": "Still tilbake til standard"
+    }, 
+    "prefs_ruleset_howto": {
+        "message": "Du kan l\u00e6ra korleis du lagar dine eigne regelsett (for \u00e5 st\u00f8tta andre vevsider)"
+    }, 
+    "prefs_search": {
+        "message": "S\u00f8k"
+    }, 
+    "prefs_site": {
+        "message": "Side"
+    }, 
+    "prefs_title": {
+        "message": "HTTPS Everywhere Innstillingar"
+    }, 
+    "prefs_toggle": {
+        "message": "Skift mellom"
+    }, 
+    "prefs_view_xml_source": {
+        "message": "Vis XML-kjelde"
+    }
+}

@@ -1,0 +1,249 @@
+{
+   "chrome_web_store": {
+      "description": "Chrome Web Store",
+      "message": "Chrome Web Store"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum 130 characters",
+      "message": "Zapętlaj/Autozapętlaj filmy dzięki jednemu kliknięciu, wybierz ilość zapętleń, lub wybierz fragment wideo do zapętlania"
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "Polish - Polski"
+   },
+   "message_saved": {
+      "description": "message shown after saving options",
+      "message": "Zapisano"
+   },
+   "option_advanced_panel": {
+      "description": "Checkbox, toggle loop panel for setting loop times and portion",
+      "message": "Zaawansowane ustawienia zapętlania (ilość powtórzeń, wybór fragmentu filmu)"
+   },
+   "option_auto": {
+      "description": "default/'auto' quality base on youtube selection",
+      "message": "Domyślna (Auto)"
+   },
+   "option_auto_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip",
+      "message": "Automatycznie zapętlaj każde wideo"
+   },
+   "option_auto_player_size": {
+      "description": "Checkbox, set player size. (Default Youtube player size as) Small/Large/Larger",
+      "message": "Ustaw domyślny rozmiar odtwarzacza"
+   },
+   "option_auto_quality": {
+      "description": "Selectbox, set default video quality",
+      "message": "Ustaw domyślną jakość wideo"
+   },
+   "option_button": {
+      "description": "Selectbox, set visible button content",
+      "message": "Wyświetlanie przycisku zapętlania"
+   },
+   "option_button_icon": {
+      "description": "selection option, icon only",
+      "message": "tylko ikona"
+   },
+   "option_button_iconandtext": {
+      "description": "selection option, icon and text",
+      "message": "ikona i tekst"
+   },
+   "option_button_text": {
+      "description": "selection option, text only",
+      "message": "tylko tekst"
+   },
+   "option_default_show_panel": {
+      "description": "Checkbox, check to show the LOOP panel instead of ABOUT tab upon page load, applies only when Auto Loop is enabled or URL parameter is set",
+      "message": "Pokaż panel zapętlania zamiast zakładki 'Więcej' po załadowaniu nowej strony (działa tylko jeśli wybrałeś Auto Zapętlanie lub gdy wpiszesz parametry w URL)"
+   },
+   "option_full_size": {
+      "description": "full-window player size",
+      "message": "Pełnoekranowy"
+   },
+   "option_keyboard_shortcut_loop": {
+      "description": "Checkbox, P key as keyboard shortcut for loop",
+      "message": "Pozwól na używanie przycisku 'p' na klawiaturze aby włączyć/wyłączyć zapętlanie"
+   },
+   "option_keyboard_shortcut_pause": {
+      "description": "Checkbox, spacebar as keyboard shortcut for play/pause video, applies to anywhere on Youtube pages",
+      "message": "Pozwól na używanie spacji aby odtwarzać/pauzować wideo"
+   },
+   "option_large_size": {
+      "description": "large size",
+      "message": "Duży"
+   },
+   "option_larger_size": {
+      "description": "larger size",
+      "message": "Większy"
+   },
+   "option_manual_loop": {
+      "description": "Radiobox, start loop manually for every clip",
+      "message": "Manualne zapętlanie wideo"
+   },
+   "option_savestate_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip if state on previous video is looping",
+      "message": "Automatycznie zapętlaj wideo w zależności od poprzedniego ustawienia"
+   },
+   "option_show_changelog": {
+      "description": "Checkbox, show changelog page when user opens YouTube after updating extension",
+      "message": "Pokaż historię zmian jeśli rozszerzenie zostanie zaktualizowane"
+   },
+   "option_small_size": {
+      "description": "small size",
+      "message": "Mały"
+   },
+   "script_and": {
+      "description": "Played 1 times ( and ) Played 1 minutes",
+      "message": " i "
+   },
+   "script_button_hover": {
+      "description": "hover tips, loop button",
+      "message": "Zapętl to automatycznie"
+   },
+   "script_button_hover_disabled_watchqueue": {
+      "description": "hover tips, loop button, google cast is not working",
+      "message": "Nie działa z kolejką odtwarzania"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Zapętl"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Kontynuuj odtwarzanie playlisty"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Kliknij dwukrotnie aby pokazać obecny czas"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Kliknij dwukrotnie aby rozpocząć zapętlanie tego fragmentu"
+   },
+   "script_from": {
+      "description": "loop portion, from",
+      "message": "od "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Schowaj"
+   },
+   "script_information": {
+      "description": "Promotion on options page for user",
+      "message": "Czy wiesz, że możesz ustawić auto zapętlanie i auto HD w karcie ustawień?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Zapętl "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Zapętl "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Zapętl fragment: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minut(y)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minut(y)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Ustawienia"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Odtworzono "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Odtworzono "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Zatrzymaj wideo"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " razy"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " razy"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " do "
+   },
+   "text_experimental": {
+      "description": "experimental features",
+      "message": " (*Eksperymentalne)"
+   },
+   "text_extension_by": {
+      "description": "Please do not change the name of the extension, just translate the term, by",
+      "message": "Looper for YouTube autorstwa "
+   },
+   "text_feedback": {
+      "description": "Encourage users leaving reviews on chrome web store",
+      "message": "Jeżeli spodobało Ci się to rozszerzenie, zostaw komentarz i wystaw pozytywną ocenę w Chrome Web Store."
+   },
+   "text_full_changelog": {
+      "description": "link to change-log page",
+      "message": "Kliknij tutaj, by zobaczyć pełną historię zmian."
+   },
+   "text_not_compatible": {
+      "description": "Not compatible with other extensions for YouTube that have similar function to use at the same time.",
+      "message": "Nie kompatybilne z innymi rozszerzeniami, które pełnią podobne funkcje."
+   },
+   "text_outdate_chrome": {
+      "description": "as chrome.storage api is not available in version 19 or below, options saving is not working.",
+      "message": "Powyższe ustawienia nie zadziałają w wersji 19 Chrome lub niższej."
+   },
+   "text_refresh_page": {
+      "description": "After options are saved, refresh and open YouTube page.",
+      "message": "Po zapisaniu ustawień, odśwież i otwórz stronę YouTube."
+   },
+   "text_support": {
+      "description": "please keep those html tags",
+      "message": "Jakiekolwiek problemy lub sugestie możesz zgłosić tutaj \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Support Page on CWS\u003C/a> lub wyślij e-mail na adres looperforyoutube@alvinhkh.com (po Angielsku)"
+   },
+   "text_tweet": {
+      "description": "maximum 100 characters",
+      "message": "Looper for YouTube, niesamowite rozszerzenie, dzięki któremu zapętlam filmy jednym kliknięciem."
+   },
+   "text_version": {
+      "description": "(Version) 1.0.0",
+      "message": "Wersja"
+   },
+   "text_welcome_translation": {
+      "message": "Welcome translations from your language!"
+   },
+   "title_changelog": {
+      "description": "Change-log (in English)",
+      "message": "Historia zmian (po Angielsku)"
+   },
+   "title_extra_features": {
+      "description": "Extra Features",
+      "message": "Dodatkowe funkcje"
+   },
+   "title_feedback": {
+      "description": "Give us feedback",
+      "message": "Wspomóż nas ★★★★★"
+   },
+   "title_share": {
+      "description": "Encourage sharing extension on social media",
+      "message": "Podziel się tym rozszerzeniem ze znajomymi aby i oni mogli świetnie się bawić zapętlając filmy na YouTube tak jak ty :)"
+   }
+}

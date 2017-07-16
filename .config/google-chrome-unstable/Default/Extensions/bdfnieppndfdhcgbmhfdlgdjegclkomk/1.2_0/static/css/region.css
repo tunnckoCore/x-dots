@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Chau Philomene One';
+    src: url('ChauPhilomeneOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+#blank {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    margin: auto;
+    z-index: 2000000;
+    text-align: center;
+}
+
+button {
+    border: none;
+    background-color: rgba(237, 71, 50, 0.9);
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+    color: rgba(255,255,255,0.9);
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    outline: none;
+    text-align: center;
+    text-shadow: 0px -1px 1px rgba(184, 35, 16, 1.0);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: rgba(237, 71, 50, 1);
+    border-bottom: 3px solid rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+button:active {
+    background-color: rgba(237, 71, 50, 0.8);
+    border-bottom: 3px solid rgba(0,0,0,0.05);
+    color: #fff;
+    padding: 10px 8px 6px 8px;
+}

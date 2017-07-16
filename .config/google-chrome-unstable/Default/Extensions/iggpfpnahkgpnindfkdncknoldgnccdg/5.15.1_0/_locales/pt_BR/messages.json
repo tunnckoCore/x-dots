@@ -1,0 +1,192 @@
+{
+   "chrome_web_store": {
+      "message": "Chrome Web Store"
+   },
+   "extension_description": {
+      "message": "Repita vídeos automaticamente com UM CLIQUE e defina AUTO LOOP por PADRÃO, repita quantas vezes quiser ou apenas uma parte."
+   },
+   "extension_name": {
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "message": "português (Brasil)"
+   },
+   "message_saved": {
+      "message": "Salvo"
+   },
+   "option_advanced_panel": {
+      "message": "Funções avançadas de loop (Repetir quantas vezes, e/ou uma parte)"
+   },
+   "option_auto": {
+      "message": "Padrão (Auto)"
+   },
+   "option_auto_loop": {
+      "message": "Dá loop em todos os os vídeos automaticamente"
+   },
+   "option_auto_player_size": {
+      "message": "Definir tamanho do player como"
+   },
+   "option_auto_quality": {
+      "message": "Definir qualidade do vídeo como"
+   },
+   "option_default_show_panel": {
+      "message": "Mostrar opções do painel de loop mesmo se as opções forem setadas antes da página carregar"
+   },
+   "option_full_size": {
+      "message": "Tela cheia"
+   },
+   "option_keyboard_shortcut_loop": {
+      "message": "Permitir o uso da tecla 'P' como um atalho do teclado para ativar o loop"
+   },
+   "option_keyboard_shortcut_pause": {
+      "message": "Permitir o uso da 'barra de espaço' como um atalho do teclado para dar play ou pausar o vídeo"
+   },
+   "option_large_size": {
+      "message": "Médio"
+   },
+   "option_larger_size": {
+      "message": "Grande"
+   },
+   "option_manual_loop": {
+      "message": "Dá loop em todos os vídeos manualmente"
+   },
+   "option_savestate_loop": {
+      "message": "Dá loop em vídeos automaticamente de acordo com o estado anterior"
+   },
+   "option_show_changelog": {
+      "description": "changelog page will be shown when user open YouTube after the extension is updated",
+      "message": "Mostrar o changelog depois que a extensão é atualizada."
+   },
+   "option_small_size": {
+      "message": "Pequeno"
+   },
+   "script_button_hover": {
+      "description": "loop button hover pop-up tips",
+      "message": "Loop automático"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Loop"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Continuar a tocar a playlist"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Clique duplo para pegar o tempo atual"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Clique duplo para iniciar o loop dessa parte"
+   },
+   "script_from": {
+      "description": "loop in a portion, from",
+      "message": "de "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Esconder isso"
+   },
+   "script_information": {
+      "description": "information to promote user to option page",
+      "message": "Você sabe que você pode colocar como padrão iniciar o loop e Auto HD na página de opções?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Dê loop "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Dê loop "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Dê loop em uma parte: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Opções"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Tocado "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Tocado "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Parar Vídeo"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " vezes"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " vezes"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " até "
+   },
+   "text_experimental": {
+      "message": " (*Experimental)"
+   },
+   "text_extension_by": {
+      "message": "Looper for YouTube por "
+   },
+   "text_feedback": {
+      "message": "Deixe alguns comentários e avalie com 5 estrelas na Chrome Web Store, se você gosta de repetir vídeos do YouTube com Looper for YouTube."
+   },
+   "text_full_changelog": {
+      "message": "Para o change-log completo, Clique aqui."
+   },
+   "text_not_compatible": {
+      "message": "Não compatível com outras extensões do YouTube que têm funções similares para ser usado ao mesmo tempo."
+   },
+   "text_outdate_chrome": {
+      "message": "Opções acima não funcionam com Chrome versão 19 ou anterior."
+   },
+   "text_refresh_page": {
+      "message": "Após salvar suas opções, atualize a página do YouTube aberta."
+   },
+   "text_support": {
+      "message": "Qualquer problema ou sugestão vá para a \u003Ca id='support_page' href='#' target='_blank'>Página de Suporte na CWS\u003C/a> ou mande um email para looperforyoutube@alvinhkh.com (em inglês)"
+   },
+   "text_tweet": {
+      "message": "Looper for YouTube, uma incrível extensão para o Chrome que me permite deixar vídeos em loop com um clique"
+   },
+   "text_version": {
+      "message": "Versão"
+   },
+   "text_welcome_translation": {
+      "message": ""
+   },
+   "title_changelog": {
+      "message": "Change-log (em inglês)"
+   },
+   "title_extra_features": {
+      "message": "Funções Extra"
+   },
+   "title_feedback": {
+      "message": "Nos dê um feedback ★★★★★"
+   },
+   "title_share": {
+      "message": "Compartilhe essa extensão com seus amigos para que eles possam deixar vídeos do YouTube em loop assim como você :)"
+   }
+}

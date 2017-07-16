@@ -1,0 +1,41 @@
+# ZSH 5.3+ Custom configurations
+
+autoload -Uz compinit && compinit
+
+unsetopt beep
+
+zstyle ':completion:*' completer _complete _ignored _approximate
+zstyle ':completion:*' max-errors 4 numeric
+zstyle ':completion:*' prompt 'ehh... error?!'
+zstyle ':completion:*' rehash true
+zstyle :compinstall filename "$HOME/.zshrc"
+
+export RAGE="/rage"
+export XDG_CONFIG_HOME="$HOME/.config"
+export EDITOR="leafpad"
+export GIT_EDITOR="leafpad"
+export GIT_CONFIG_USERNAME="tunnckoCore"
+export GIT_CONFIG_USERMAIL="mameto2011@gmail.com"
+export GIT_CONFIG_TOKEN="`cat $RAGE/.github-token`"
+export PYTHON=/usr/bin/python2
+
+# Aliases
+[ -s "$HOME/.zsh-aliases" ] && . "$HOME/.zsh-aliases"
+source /usr/share/nvm/init-nvm.sh
+
+# usage:
+# repo repoName repoDescription
+repo() {
+  mkdir $1
+  cd $1
+  touch .gitkeep
+  git init
+  gall
+  gcmsg 'Initial commit'
+  hub create -d $2
+  gp -u origin master
+  echo "Excellent! Now run your generator to scaffold package files."
+  hub browse "tunnckocore/$1"
+  echo "Deleting '.gitkeep' file..."
+  rm -rf .gitkeep
+}

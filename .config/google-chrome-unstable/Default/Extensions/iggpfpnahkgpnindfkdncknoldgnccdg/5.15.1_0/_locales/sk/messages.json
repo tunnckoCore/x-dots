@@ -1,0 +1,194 @@
+{
+   "chrome_web_store": {
+      "message": "Internetový obchod Chrome"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum of 130 characters",
+      "message": "Jedným kliknutím môžete nastaviť automatické opakovanie videa, môžete nastaviť počet opakovaní a opakovanú časť."
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "slovenský"
+   },
+   "message_saved": {
+      "message": "Uložené"
+   },
+   "option_advanced_panel": {
+      "message": "Rozšírené nastavenia (počet opakovaní, opakovanie časti)"
+   },
+   "option_auto": {
+      "message": "Automaticky"
+   },
+   "option_auto_loop": {
+      "message": "Automaticky opkovať každé video"
+   },
+   "option_auto_player_size": {
+      "message": "Automaticky nastav veľkosť okna prehrávača na"
+   },
+   "option_auto_quality": {
+      "message": "Automaticky nastav kvalitu videa na"
+   },
+   "option_default_show_panel": {
+      "message": "Zobraziť panel s nastaveniami namiesto \"Informácií\" po načítaní novej stránky (ak je automaticky zapnuté opakovanie alebo je nastavený URL parameter)"
+   },
+   "option_full_size": {
+      "message": "Celá obrazovka"
+   },
+   "option_keyboard_shortcut_loop": {
+      "message": "Povoliť \"p\" ako klávesovú skratku pre opakovanie"
+   },
+   "option_keyboard_shortcut_pause": {
+      "message": "Povoliť \"medzerník\" ako klávesovú skratku pre zastavenie/spustenie prehrávania"
+   },
+   "option_large_size": {
+      "message": "Stredné"
+   },
+   "option_larger_size": {
+      "message": "Veľké"
+   },
+   "option_manual_loop": {
+      "message": "Zapínať manuálne počas prehrávania"
+   },
+   "option_savestate_loop": {
+      "message": "Nastaviť podľa predchádzajúceho videa"
+   },
+   "option_show_changelog": {
+      "message": "Otvoriť záznam zmien po aktualizácií doplnku"
+   },
+   "option_small_size": {
+      "message": "Malé"
+   },
+   "script_button_hover": {
+      "description": "loop button hover pop-up tips",
+      "message": "Opakovať automaticky"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Opakovanie"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Pokračovať v zozname"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Dvojklikom posuniete na aktuálnu pozíciu"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Dvojklikom aktivujete prehrávanie tejto časti"
+   },
+   "script_from": {
+      "description": "loop in a portion, from",
+      "message": "Od "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Skryť"
+   },
+   "script_information": {
+      "description": "information to promote user to option page",
+      "message": "Vedeli ste, že na stránke s nastaveniami môžete nastaviť automatické zapnutie opakovania ako aj predvolenú kvalitu a.i.?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Opakovať "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Opakovať "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Opakovať časť: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Nastavenia"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Prehraté "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Prehraté "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Zastaviť"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " krát"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " krát"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " do "
+   },
+   "text_experimental": {
+      "message": " (*Vo vývoji)"
+   },
+   "text_extension_by": {
+      "message": "Automatické opakovanie pre YouTube od "
+   },
+   "text_feedback": {
+      "message": "Napíšte nám svoje postrehy a ohodnoťte 5 hviezdičkami v Internetovom obchode Chrome, ak sa vám páči Automatické opakovanie pre YouTube."
+   },
+   "text_full_changelog": {
+      "message": "Zobraziť všetky záznamy."
+   },
+   "text_not_compatible": {
+      "message": "Nie je kompatibilné s inými YouTube doplnkami podobnej funkcionality."
+   },
+   "text_outdate_chrome": {
+      "message": "Nastavenia vyššie nefungujú v Chrome verzií 19 a nižšie."
+   },
+   "text_refresh_page": {
+      "message": "Po uložení nastavení obnovte otvorené YouTube stránky."
+   },
+   "text_support": {
+      "message": "S problémami a návrhmi sa obráťte na \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Stránku podpory Internetového obchodu\u003C/a> alebo emailom na looperforyoutube@alvinhkh.com (v angličtine)"
+   },
+   "text_tweet": {
+      "message": "Automatické opakovanie pre YouTube - skvelý doplnok pre Chrome, s ktorým je opakovanie videí hračka."
+   },
+   "text_version": {
+      "message": "Verzia"
+   },
+   "text_welcome_translation": {
+      "message": "Vítame preklady vo Vašom jazyku"
+   },
+   "title_changelog": {
+      "message": "Záznam zmien v angličtine"
+   },
+   "title_extra_features": {
+      "message": "Extra Funkcie"
+   },
+   "title_feedback": {
+      "message": "Pošlite nám svoje pripomienky ★★★★★"
+   },
+   "title_share": {
+      "message": "Zdieľajte tento doplnok so svojimi priateľmi, aby si mohli aj oni užívať automatické opakovanie YouTube videí ako Vy :)"
+   }
+}

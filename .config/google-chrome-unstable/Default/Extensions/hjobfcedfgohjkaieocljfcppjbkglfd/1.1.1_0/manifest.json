@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery.min.js", "kill.js" ],
+      "matches": [ "*://*.facebook.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Saves you time by getting rid of Facebook news feed.",
+   "icons": {
+      "128": "images/icon-red.png",
+      "16": "images/icon-red.png",
+      "48": "images/icon-red.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5QAy9PT62bW/VnDEKcFZxVethh85zfZbXruJ0SF5JUH0LAiRJqi9ZmfcHiHMZi+KyvRhAVG0gDFewEh00lDrJdmlhN0Mz2yNiOhGD2V6zcwKOlkW7d7tlG+JcrNNhiqnsuNkGEGwOiELAnKu7VTI12Mq3uDkpDqIZzaq/AcoNZQIDAQAB",
+   "manifest_version": 2,
+   "name": "Kill News Feed",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}

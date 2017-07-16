@@ -1,0 +1,225 @@
+{
+   "chrome_web_store": {
+      "description": "Chrome Web Store",
+      "message": "Chrome Web Store"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum 130 characters",
+      "message": "Herhaal video's met één klik op de knop, stel functies in zoals AUTO LOOP aan/uit, het aantal herhalingen en een deel herhalen."
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "Nederlands"
+   },
+   "message_saved": {
+      "description": "message shown after saving options",
+      "message": "Opgeslagen"
+   },
+   "option_advanced_panel": {
+      "description": "Checkbox, toggle loop panel for setting loop times and portion",
+      "message": "Geavanceerde herhalingsinstellingen (Aantal herhalingen, deel dat wordt herhaald)"
+   },
+   "option_auto": {
+      "description": "default/'auto' quality base on youtube selection",
+      "message": "Standaard kwaliteit (Automatische kwaliteit)"
+   },
+   "option_auto_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip",
+      "message": "Alle videos automatisch herhalen"
+   },
+   "option_auto_player_size": {
+      "description": "Checkbox, set player size. (Default Youtube player size as) Small/Large/Larger",
+      "message": "Stel de standaardgrootte van de speler in als"
+   },
+   "option_auto_quality": {
+      "description": "Selectbox, set default video quality",
+      "message": "Stel de standaardkwaliteit van de video in als"
+   },
+   "option_default_show_panel": {
+      "description": "Checkbox, check to show the LOOP panel instead of ABOUT tab upon page load, applies only when Auto Loop is enabled or URL parameter is set",
+      "message": "Laat het herhaalpaneel zien in plaats van 'Over' tabblad wanneer een nieuwe pagina wordt geladen (werkt alleen als automatisch herhalen is ingeschakeld of een URL parameter is ingesteld)"
+   },
+   "option_full_size": {
+      "description": "full-window size",
+      "message": "Volledig scherm"
+   },
+   "option_keyboard_shortcut_loop": {
+      "description": "Checkbox, P key as keyboard shortcut for loop",
+      "message": "Stel 'p' in als toetsenbordsnelkoppeling om herhalen aan/uit te zetten"
+   },
+   "option_keyboard_shortcut_pause": {
+      "description": "Checkbox, spacebar as keyboard shortcut for play/pause video, applies to anywhere on Youtube pages",
+      "message": "Stel 'spatiebalk' in als toetsenbordsnelkoppeling om video's af te spelen/te pauzeren"
+   },
+   "option_large_size": {
+      "description": "large size",
+      "message": "Groot"
+   },
+   "option_larger_size": {
+      "description": "larger size",
+      "message": "Groter"
+   },
+   "option_manual_loop": {
+      "description": "Radiobox, start loop manually for every clip",
+      "message": "Videos handmatig laten herhalen"
+   },
+   "option_savestate_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip if state on previous video is looping",
+      "message": "De stand van de herhaalknop onthouden"
+   },
+   "option_show_changelog": {
+      "description": "Checkbox, show changelog page when user opens YouTube after updating extension",
+      "message": "Laat het logboek van veranderingen zien als de extensie is geüpdatet"
+   },
+   "option_small_size": {
+      "description": "small size",
+      "message": "Klein"
+   },
+   "script_button_hover": {
+      "description": "hover tips, loop button",
+      "message": "Herhaal dit automatisch"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Herhaal"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Zet het afspelen van de afspeellijst voort"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Dubbelklik om de huidige tijd te krijgen"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Dubbelklik om dit deel te herhalen"
+   },
+   "script_from": {
+      "description": "loop portion, from",
+      "message": "van "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Verberg dit"
+   },
+   "script_information": {
+      "description": "Promotion on options page for user",
+      "message": "Wist je dat je automatisch herhalen en Automatisch afspelen in HD kan instellen in de opties?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Herhaal "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Herhaal "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Herhaal een deel: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Opties"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Afgespeeld "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Afgespeeld "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Stop Video"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " keer"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " keer"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " tot "
+   },
+   "text_experimental": {
+      "description": "experimental features",
+      "message": " (*Experimenteel)"
+   },
+   "text_extension_by": {
+      "description": "Please do not change the name of the extension, just translate the term, by",
+      "message": "Looper for YouTube, gemaakt door "
+   },
+   "text_feedback": {
+      "description": "Encourage users leaving reviews on chrome web store",
+      "message": "Laat een reactie achter en beoordeel 5 sterren in de Chrome Web Store als je het herhalen van video's met Looper for YouTube leuk vindt"
+   },
+   "text_full_changelog": {
+      "description": "link to change-log page",
+      "message": "Klik hier voor het hele logboek van veranderingen."
+   },
+   "text_not_compatible": {
+      "description": "Not compatible with other extensions for YouTube that have similar function to use at the same time.",
+      "message": "Not compatible with other extensions for YouTube that have similar functions. Niet in combinatie met andere extensies met overeenkomende functies voor YouTube te gebruiken."
+   },
+   "text_outdate_chrome": {
+      "description": "as chrome.storage api is not available in version 19 or below, options saving is not working.",
+      "message": "De opties hierboven werken niet in versies 19 en lager van Chrome."
+   },
+   "text_refresh_page": {
+      "description": "After options are saved, refresh and open YouTube page.",
+      "message": "Ververs en open de YouTube pagina nadat de opties zijn opgeslagen."
+   },
+   "text_support": {
+      "description": "please keep those html tags",
+      "message": "Meld problemen of suggesties alstublieft op \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Support Page on CWS\u003C/a> of mail naar looperforyoutube@alvinhkh.com (in het Engels)"
+   },
+   "text_tweet": {
+      "description": "maximum 100 characters",
+      "message": "Looper for YouTube: een geweldige Chrome extensie die video´s herhaalt met één klik op de knop"
+   },
+   "text_version": {
+      "description": "(Version) 1.0.0",
+      "message": "Versie"
+   },
+   "text_welcome_translation": {
+      "message": "Vertalingen naar uw taal worden zeer gewaardeerd!"
+   },
+   "title_changelog": {
+      "description": "Change-log (in English)",
+      "message": "Logboek van veranderingen (in het Engels)"
+   },
+   "title_extra_features": {
+      "description": "Extra Features",
+      "message": "Extra mogelijkheden"
+   },
+   "title_feedback": {
+      "description": "Give us feedback",
+      "message": "Geef ons feedback ★★★★★"
+   },
+   "title_share": {
+      "description": "Encourage sharing extension on social media",
+      "message": "Deel deze extensie met je vrienden zodat zij net als jij kunnen genieten van het herhalen van YouTube video´s :)"
+   }
+}

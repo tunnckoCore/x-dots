@@ -1,0 +1,211 @@
+
+# Constants
+set $alt      Mod1
+set $mod      Mod4
+set $win      Mod4
+set $super    Mod4
+set $shift    Shift
+set $ctrl     Control
+set $esc      Escape
+set $del      Delete
+set $ret      Return
+set $return   Return
+set $enter    Return
+set $exec exec --no-startup-id
+
+
+# Theme colors
+set $base00 "#101218"
+set $base01 "#1f222d"
+# atom material: set $base01 "#222D32"
+set $base02 "#252936"
+set $base03 "#7780a1"
+set $base04 "#D5D5D5"
+set $base05 "#d1d4e0"
+set $base06 "#C9CCDB"
+set $base07 "#ffffff"
+set $base08 "#ee829f"
+set $base09 "#f99170"
+set $base0A "#ffefcc"
+set $base0B "#a5ffe1"
+set $base0C "#97e0ff"
+set $base0D "#97bbf7"
+set $base0E "#c0b7f9"
+set $base0F "#fcc09e"
+
+# Workspaces
+set $ws1    "1:  web"
+set $ws2    "2:  sh"
+set $ws3    "3:  code"
+set $ws4    "4:  atom"
+set $ws5    "5:  firefox"
+set $ws6    "6:  home"
+set $ws7    "7:  htop"
+set $ws8    "8:  empty"
+set $ws9    "9:  skype"
+set $ws0    "10:  empty"
+
+font pango: 						Noto Sans 11
+floating_modifier 					$super
+focus_follows_mouse 				no
+hide_edge_borders 				both
+popup_during_fullscreen 			smart
+workspace_auto_back_and_forth 	yes
+new_window 						none
+
+# Fullscreen Mode bindings
+bindsym $super+f mode 		$fullscreen
+
+bindsym F11               			fullscreen toggle
+bindsym $super+$shift+a 		fullscreen toggle
+bindsym $super+$shift+f 		floating toggle
+bindsym $alt+$shift+f 			floating toggle
+bindsym $super+Tab 			workspace back_and_forth
+bindsym $alt+Tab 				workspace back_and_forth
+
+# System Mode bindings
+set $sysmenu " System: [l]ock  [r]eload  l[o]gout  [s]uspend  [h]ibernate  [p]oweroff  r[e]start"
+bindsym $super+s 		mode $sysmenu
+bindsym $super+$esc 	mode $sysmenu
+bindsym $super+$del 	mode $sysmenu
+mode $sysmenu {
+	bindsym l             $exec i3lock-fancy -g, mode "default"
+	bindsym r             restart
+	bindsym o             exit
+	bindsym s             $exec systemctl suspend, mode "default"
+	bindsym h             $exec systemctl hibernate, mode "default"
+	bindsym p             exec poweroff
+	bindsym e             exec reboot
+
+	bindsym $super+s      mode "default"
+	bindsym $super+$esc   mode "default"
+	bindsym $super+$del   mode "default"
+	bindsym $super+q      mode "default"
+	bindsym $esc          mode "default"
+}
+
+# System bindings
+bindsym $super+$shift+l       $exec i3lock-fancy -g
+bindsym $super+$shift+r       restart
+bindsym $super+$shift+s     $exec systemctl suspend
+bindsym $super+$shift+h     $exec systemctl hibernate
+bindsym $ctrl+$alt+$del         exec reboot
+
+bindsym $super+$shift+c     $exec leafpad ~/.config/i3/config
+
+bindsym $super+$shift+$del  	exec pkill X
+bindsym $super+$shift+q 		kill
+bindsym $super+q    			kill
+
+# Workspace-Related Bindings
+bindsym $super+1 workspace 		$ws1
+bindsym $super+2 workspace 		$ws2
+bindsym $super+3 workspace 		$ws3
+bindsym $super+4 workspace 		$ws4
+bindsym $super+5 workspace 		$ws5
+bindsym $super+6 workspace 		$ws6
+bindsym $super+7 workspace 		$ws7
+bindsym $super+8 workspace 		$ws8
+bindsym $super+9 workspace 		$ws9
+bindsym $super+0 workspace 		$ws0
+
+bindsym $super+$shift+1 move container to workspace 	$ws1
+bindsym $super+$shift+2 move container to workspace 	$ws2
+bindsym $super+$shift+3 move container to workspace 	$ws3
+bindsym $super+$shift+4 move container to workspace 	$ws4
+bindsym $super+$shift+5 move container to workspace 	$ws5
+bindsym $super+$shift+6 move container to workspace 	$ws6
+bindsym $super+$shift+7 move container to workspace 	$ws7
+bindsym $super+$shift+8 move container to workspace 	$ws8
+bindsym $super+$shift+9 move container to workspace 	$ws9
+bindsym $super+$shift+0 move container to workspace 	$ws0
+
+# Default workspaces
+#assign [class="(?i)skype"] $ws9
+assign [class="^Google-chrome*"] $ws1
+assign [class="Xfce4-terminal" instance="xfce4-terminal" title="^Terminal 1"] $ws2
+#assign [class="Subl3"] $ws3
+assign [class="Atom"] $ws3
+assign [class="Firefox"] $ws5
+assign [class="Pcmanfm"] $ws6
+assign [class="Xfce4-terminal" title="htop"] $ws7
+assign [class="smplayer"] $ws8
+assign [class="Simplescreenrecorder"] $ws8
+assign [class="skype"] $ws9
+
+# Set floating by default
+# hint: use `xprop` and search for `WM_CLASS`
+for_window [class="[.]*"] floating enable
+for_window [class="(Xfce4-terminal|Subl3|^Google-chrome*|Atom|Firefox)"] floating disable
+for_window [class="Xfce4-terminal" instance="xfce4-terminal" title="^Terminal 1"] floating disable
+for_window [class="Xfce4-terminal" title="htop"] floating enable
+
+# Program bindings (using dmenu2)
+bindsym $super+d        $exec i3-dmenu-desktop --dmenu="~/.config/i3/scripts/dmenu_custom"
+bindsym $super+b        $exec google-chrome-unstable
+bindsym $super+h        $exec pcmanfm ~/
+
+# Don't forget to reload/restart i3 (with $super+$shift+r)
+bindsym $super+$shift+n $exec ~/.config/i3/scripts/kblayout_phonetic
+bindsym $super+$shift+m $exec ~/.config/i3/scripts/kblayout_bg
+
+
+# Widow Colors
+#                                                     border  background text    indicator
+client.focused                             $base01 $base01 $base07 $base0F
+client.focused_inactive             $base02 $base02 $base04 $base0F
+client.unfocused                        $base02 $base02 $base04 $base0F
+client.urgent                               $base02 $base08 $base00 $base0F
+
+# Terminals for left and right hand
+bindsym $super+t 					exec xfce4-terminal --title="Terminal X"
+bindsym $super+$enter 			exec xfce4-terminal --title="Terminal X"
+bindsym $super+$shift+$enter 		exec i3-sensible-terminal
+
+
+bar {
+	position bottom
+	tray_padding 5
+	font pango: Noto Sans, FontAwesome 11
+	status_command i3blocks -c ~/.config/i3/blocks/config
+	colors {
+		separator   $base03
+		background  $base01
+		statusline  $base05
+		#					border  backgr.    text
+		# focused_workspace     $base01 $base01    $base07
+		focused_workspace     $base04 $base04    $base01
+		active_workspace      $base01 $base02    $base04
+		inactive_workspace    $base01 $base01    $base04
+		#urgent_workspace      $base01 $base01    $base08
+		urgent_workspace #FF3D00 #FF3D00 $base01
+	}
+}
+
+# Volume Control with Alsa Mixer
+# requires: alsa-lib alsa-utils
+# Check with: speaker-test -c2)
+bindsym $mod+z exec amixer -q set Master 5%+ unmute
+bindsym $mod+x exec amixer -q set Master toggle
+bindsym $mod+c exec amixer -q set Master 5%- unmute
+
+# i3blocks: key indicators for CapsLock and NumLock
+bindsym --release Caps_Lock    exec pkill -SIGRTMIN+11 i3blocks
+bindsym --release Num_Lock    exec pkill -SIGRTMIN+11 i3blocks
+
+# Screenshoting
+set $scrt scrot '%Y-%m-%d-%T_$wx$h_scrot.png' -e 'mv $f /rage/Screenshots/'
+
+bindsym --release Print 				$exec $scrt     # fullscreen
+bindsym --release $super+Print 	$exec $scrt -u  # current window
+bindsym --release $super+p 		$exec $scrt -s  # select area
+
+# Animations, background and autostarts
+$exec compton -bf -D 2
+$exec xfce4-terminal --title="Terminal 1"
+
+# Set background
+exec_always --no-startup-id nitrogen --restore
+
+# Layouts [us,bg,bg], toggle it with alt+shift
+exec_always --no-startup-id setxkbmap -layout "us,bg(phonetic)" -option "grp:alt_shift_toggle"

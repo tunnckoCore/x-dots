@@ -1,0 +1,249 @@
+{
+   "chrome_web_store": {
+      "description": "Chrome Web Store",
+      "message": "Chrome Web Store"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum 130 characters",
+      "message": "Repetă automat videoclipurile, puteți personaliza funcțiile precum numărul de repetări și porțiunea care să fie repetată."
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "Română"
+   },
+   "message_saved": {
+      "description": "message shown after saving options",
+      "message": "Salvat"
+   },
+   "option_advanced_panel": {
+      "description": "Checkbox, toggle loop panel for setting loop times and portion",
+      "message": "Opțiuni avansate (Numărul de repetări, porțiunea repetată)"
+   },
+   "option_auto": {
+      "description": "default/'auto' quality base on youtube selection",
+      "message": "Standard (Automat)"
+   },
+   "option_auto_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip",
+      "message": "Repetă toate videoclipurile automat"
+   },
+   "option_auto_player_size": {
+      "description": "Checkbox, set player size. (Default Youtube player size as) Small/Large/Larger",
+      "message": "Setează dimensiunea standard a playerului la"
+   },
+   "option_auto_quality": {
+      "description": "Selectbox, set default video quality",
+      "message": "Setează automat calitatea videoclipurilor la"
+   },
+   "option_button": {
+      "description": "Selectbox, set visible button content",
+      "message": "Arată butonul de repetare"
+   },
+   "option_button_icon": {
+      "description": "selection option, icon only",
+      "message": "doar iconița"
+   },
+   "option_button_iconandtext": {
+      "description": "selection option, icon and text",
+      "message": "iconiță și text"
+   },
+   "option_button_text": {
+      "description": "selection option, text only",
+      "message": "doar text"
+   },
+   "option_default_show_panel": {
+      "description": "Checkbox, check to show the LOOP panel instead of ABOUT tab upon page load, applies only when Auto Loop is enabled or URL parameter is set",
+      "message": "Arată panoul de opțiuni de repetare în loc de informațiile despre video (se aplică doar când repetarea automată este activă sau parametrul din URL e setat)"
+   },
+   "option_full_size": {
+      "description": "full-window player size",
+      "message": "Dimensiune completă"
+   },
+   "option_keyboard_shortcut_loop": {
+      "description": "Checkbox, P key as keyboard shortcut for loop",
+      "message": "Folosește tasta 'P' ca scurtătură pentru activarea sau dezactivarea repetării"
+   },
+   "option_keyboard_shortcut_pause": {
+      "description": "Checkbox, spacebar as keyboard shortcut for play/pause video, applies to anywhere on Youtube pages",
+      "message": "Folosește tasta 'SPACE' pentru pornirea sau oprirea videoclipului"
+   },
+   "option_large_size": {
+      "description": "large size",
+      "message": "Mare"
+   },
+   "option_larger_size": {
+      "description": "larger size",
+      "message": "Mai mare"
+   },
+   "option_manual_loop": {
+      "description": "Radiobox, start loop manually for every clip",
+      "message": "Activează repetarea videoclipurilor manual"
+   },
+   "option_savestate_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip if state on previous video is looping",
+      "message": "Repetă videoclipurile automat în funcție de videoclipul precedent"
+   },
+   "option_show_changelog": {
+      "description": "Checkbox, show changelog page when user opens YouTube after updating extension",
+      "message": "Deschide o pagină cu schimbările când extensia este actualizată"
+   },
+   "option_small_size": {
+      "description": "small size",
+      "message": "Mic"
+   },
+   "script_and": {
+      "description": "Played 1 times ( and ) Played 1 minutes",
+      "message": " și "
+   },
+   "script_button_hover": {
+      "description": "hover tips, loop button",
+      "message": "Repetă acest videclip automat"
+   },
+   "script_button_hover_disabled_watchqueue": {
+      "description": "hover tips, loop button, google cast is not working",
+      "message": "Nu funcționează cu lista de vizualizat"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Repetă"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Continuă redarea listei"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Dublu-click pentru momentul actual"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Dublu-click pentru a începe să repeți această porțiune"
+   },
+   "script_from": {
+      "description": "loop portion, from",
+      "message": "de la "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Ascunde"
+   },
+   "script_information": {
+      "description": "Promotion on options page for user",
+      "message": "Știai că poți să setezi repetarea automată și calitatea videoclipurilor și din pagina de opțiuni?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Repetă pentru "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Repetă de "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Repetă o porțiune: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minute"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minute"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Opțiuni"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Redat "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Redat de "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Oprește Videoclipul"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " ori"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " ori"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " până la "
+   },
+   "text_experimental": {
+      "description": "experimental features",
+      "message": " (*Experimental)"
+   },
+   "text_extension_by": {
+      "description": "Please do not change the name of the extension, just translate the term, by",
+      "message": "Looper for YouTube creat de "
+   },
+   "text_feedback": {
+      "description": "Encourage users leaving reviews on chrome web store",
+      "message": "Lăsați un comentariu și acordați o notă aplicației în Magazinul Chrome, dacă vă place extensia Looper for YouTube."
+   },
+   "text_full_changelog": {
+      "description": "link to change-log page",
+      "message": "Pentru lista completă de schimbări, apăsați aici"
+   },
+   "text_not_compatible": {
+      "description": "Not compatible with other extensions for YouTube that have similar function to use at the same time.",
+      "message": "Nu este compatibil cu alte extensii pentru YouTube care fac același lucru."
+   },
+   "text_outdate_chrome": {
+      "description": "as chrome.storage api is not available in version 19 or below, options saving is not working.",
+      "message": "Opțiunile de mai sus nu sunt compatibile cu versiuni mai vechi decat versiunea 19."
+   },
+   "text_refresh_page": {
+      "description": "After options are saved, refresh and open YouTube page.",
+      "message": "După ce opțiunile au fost salvate, reîmprospătați pagina și deschideți YouTube."
+   },
+   "text_support": {
+      "description": "please keep those html tags",
+      "message": "Dacă aveți probleme sau sugestii accesați \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Pagina de Suport CWS\u003C/a> sau trimiteți un e-mail la looperforyoutube@alvinhkh.com (în engleză)"
+   },
+   "text_tweet": {
+      "description": "maximum 100 characters",
+      "message": "Looper for YouTube, o extensie Google Chrome care permite repetarea videoclipurilor cu un singur click."
+   },
+   "text_version": {
+      "description": "(Version) 1.0.0",
+      "message": "Versiunea"
+   },
+   "text_welcome_translation": {
+      "message": "Bun venit traducerilor în alte limbi!"
+   },
+   "title_changelog": {
+      "description": "Change-log (in English)",
+      "message": "Lista cu schimbări (în engleză)"
+   },
+   "title_extra_features": {
+      "description": "Extra Features",
+      "message": "Funcții în Plus"
+   },
+   "title_feedback": {
+      "description": "Give us feedback",
+      "message": "Oferiți-ne părerea ★★★★★"
+   },
+   "title_share": {
+      "description": "Encourage sharing extension on social media",
+      "message": "Împarte această extensie cu prietenii tăi pentru a putea repeta și ei videoclipuri automat pe YouTube :)"
+   }
+}

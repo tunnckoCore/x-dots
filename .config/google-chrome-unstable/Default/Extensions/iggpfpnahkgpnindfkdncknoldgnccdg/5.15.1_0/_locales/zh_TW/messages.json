@@ -1,0 +1,207 @@
+{
+   "chrome_web_store": {
+      "message": "Chrome 線上應用程式商店"
+   },
+   "extension_description": {
+      "message": "讓你一鍵自動重播 YouTube 影片，還可以設置 默認自動重播、重播多少次、重播某個部分"
+   },
+   "extension_name": {
+      "message": "Looper for YouTube - 自動重播"
+   },
+   "language": {
+      "message": "中文 (正體)"
+   },
+   "message_saved": {
+      "message": "已儲存"
+   },
+   "option_advanced_panel": {
+      "message": "顯示進階選項（重播多少次、重播一部份）"
+   },
+   "option_auto": {
+      "message": "預設值（自動）"
+   },
+   "option_auto_loop": {
+      "message": "默認自動重播（不需要按任何按鈕，每段影片起始時設置為自動重播）"
+   },
+   "option_auto_player_size": {
+      "message": "啟用設定播放器為"
+   },
+   "option_auto_quality": {
+      "message": "自動設定影片畫質為"
+   },
+   "option_button": {
+      "message": "按鈕顯示"
+   },
+   "option_button_icon": {
+      "message": "圖示"
+   },
+   "option_button_iconandtext": {
+      "message": "圖示和文字"
+   },
+   "option_button_text": {
+      "message": "文字"
+   },
+   "option_default_show_panel": {
+      "message": "在頁面載入前設定了選項，也會顯示進階選項（例如，默認自動重播）"
+   },
+   "option_full_size": {
+      "message": "整個視窗"
+   },
+   "option_keyboard_shortcut_loop": {
+      "message": "啟用 'p 鍵' 作為設定自動重播的鍵盤快捷鍵"
+   },
+   "option_keyboard_shortcut_pause": {
+      "message": "啟用 '空格鍵' 作為播放/暫停影片的鍵盤快捷鍵"
+   },
+   "option_large_size": {
+      "message": "寬"
+   },
+   "option_larger_size": {
+      "message": "更寬"
+   },
+   "option_manual_loop": {
+      "message": "手動自動重播（需要按下按鈕，每段影片起始時重置為不會自動重播）"
+   },
+   "option_savestate_loop": {
+      "message": "保存自動重播狀態（根據上一次自動重播按鈕的狀態，設定自動重播）"
+   },
+   "option_show_changelog": {
+      "message": "每當擴充功能更新後，顯示變更記錄"
+   },
+   "option_small_size": {
+      "message": "正常大小"
+   },
+   "script_and": {
+      "description": "Played 1 times ( and ) Played 1 minutes",
+      "message": " & "
+   },
+   "script_button_hover": {
+      "description": "loop button hover pop-up tips",
+      "message": "自動重複播放這部影片"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "自動重播"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "繼續播放播放清單"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "連續按兩下以獲取當前時間"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "連續按兩下重複播放這一個部分"
+   },
+   "script_from": {
+      "description": "loop in a portion, from",
+      "message": "從 "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "隱藏"
+   },
+   "script_information": {
+      "description": "infomation to promote user to option page",
+      "message": "你知道你可以在選項中設置 默認啟動自動重複播放 和 自動設定影片畫質為 HD 嗎？"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "自動重複播放 "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "自動重複播放 "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "重複播放一部份： "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " 分鐘"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " 分鐘"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "選項"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "播放了 "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "播放了 "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "停止"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " 次"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " 次"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " 到 "
+   },
+   "text_experimental": {
+      "message": " （*試驗性）"
+   },
+   "text_extension_by": {
+      "message": "Looper for YouTube by "
+   },
+   "text_feedback": {
+      "message": "如果你喜歡使用 Looper for YouTube 自動重播 YouTube 影片，請給我們 5 星評分和一些意見。"
+   },
+   "text_full_changelog": {
+      "message": "更詳盡的變更記錄，請點擊此處。"
+   },
+   "text_not_compatible": {
+      "message": "可能不兼容 同時使用其他具有類似功能的 YouTube 擴充功能。"
+   },
+   "text_outdate_chrome": {
+      "message": "不支援 Chrome 版本 19 或以下設置以上選項。"
+   },
+   "text_refresh_page": {
+      "message": "保存您的選項後，需要重新整理已經開啟的 YouTube 頁面"
+   },
+   "text_support": {
+      "message": "\u003Cbr/>如果有任何問題及建議，請到 \u003Ca id='support_page' href='#' target='_blank'>CWS 的支援頁面\u003C/a>\u003Cbr/>或 電郵至 looperforyoutube@alvinhkh.com"
+   },
+   "text_tweet": {
+      "message": "Looper for YouTube，超棒的 Chrome 擴充功能，讓我一鍵自動重播 YouTube 影片"
+   },
+   "text_version": {
+      "message": "版本"
+   },
+   "text_welcome_translation": {
+      "message": "  "
+   },
+   "title_changelog": {
+      "message": "變更記錄（英文）"
+   },
+   "title_extra_features": {
+      "message": "附加功能"
+   },
+   "title_feedback": {
+      "message": "向我們反饋及評分 ★★★★★"
+   },
+   "title_share": {
+      "message": "與朋友分享這個擴充功能，讓他們能夠像你一樣享受非常方便的 YouTube 影片自動重播功能 :)"
+   }
+}

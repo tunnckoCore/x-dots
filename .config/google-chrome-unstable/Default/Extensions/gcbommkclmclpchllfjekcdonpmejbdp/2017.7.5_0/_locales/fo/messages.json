@@ -1,0 +1,155 @@
+{
+    "about_add_new_rule": {
+        "message": "Add New Rule"
+    }, 
+    "about_and": {
+        "message": ", and"
+    }, 
+    "about_created_by": {
+        "message": "Stovna hevur"
+    }, 
+    "about_donate_eff": {
+        "message": "Letur EFF eitt oyra"
+    }, 
+    "about_donate_tor": {
+        "message": "lati\u00f0 Tor eitt oyra"
+    }, 
+    "about_ext_description": {
+        "message": "Brongla alneti\u00f0! Br\u00faka HTTPS-trygd sj\u00e1vvirkandi \u00e1 fleiri s\u00ed\u00f0um."
+    }, 
+    "about_ext_name": {
+        "message": "HTTPS Allasta\u00f0ni"
+    }, 
+    "about_librarians": {
+        "message": "Ruleset Librarians"
+    }, 
+    "about_many_contributors": {
+        "message": "Many many contributors, including"
+    }, 
+    "about_noscript": {
+        "message": "Also, portions of HTTPS Everywhere are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!"
+    }, 
+    "about_or": {
+        "message": "or"
+    }, 
+    "about_thanks": {
+        "message": "T\u00f8kk til"
+    }, 
+    "about_title": {
+        "message": "Um HTTPS Allasta\u00f0ni"
+    }, 
+    "about_tor_lang_code": {
+        "message": "fo"
+    }, 
+    "about_version": {
+        "message": "\u00datg\u00e1va"
+    }, 
+    "chrome_add_new_rule": {
+        "message": "Add a new rule for this site"
+    }, 
+    "chrome_add_rule": {
+        "message": "Add a rule for this site"
+    }, 
+    "chrome_always_https_for_host": {
+        "message": "Always use https for this host"
+    }, 
+    "chrome_experimental_rules": {
+        "message": "Experimental rules"
+    }, 
+    "chrome_experimental_rules_description": {
+        "message": "May cause warnings or breakage. Disabled by default."
+    }, 
+    "chrome_hide_advanced": {
+        "message": "Hide advanced"
+    }, 
+    "chrome_host": {
+        "message": "Host:"
+    }, 
+    "chrome_redirect_to": {
+        "message": "Redirect to"
+    }, 
+    "chrome_regex": {
+        "message": "Matching regex"
+    }, 
+    "chrome_rule_name": {
+        "message": "Rule name"
+    }, 
+    "chrome_show_advanced": {
+        "message": "Show advanced"
+    }, 
+    "chrome_stable_rules": {
+        "message": "Stable rules"
+    }, 
+    "chrome_stable_rules_description": {
+        "message": "Force encrypted connections to these websites:"
+    }, 
+    "chrome_status_cancel_button": {
+        "message": "Angra"
+    }, 
+    "menu_about": {
+        "message": "Um HTTPS Allasta\u00f0ni"
+    }, 
+    "menu_blockUnencryptedRequests": {
+        "message": "Block all unencrypted requests"
+    }, 
+    "menu_donate_eff_imperative": {
+        "message": "Donate to EFF"
+    }, 
+    "menu_globalDisable": {
+        "message": "\u00d3gilda HTTPS Allasta\u00f0ni"
+    }, 
+    "menu_globalEnable": {
+        "message": "Gilda HTTPS Allasta\u00f0ni"
+    }, 
+    "menu_observatory": {
+        "message": "Stillingar fyri SSL Observatory"
+    }, 
+    "menu_showCounter": {
+        "message": "V\u00eds teljara"
+    }, 
+    "menu_viewAllRules": {
+        "message": "View All Rules"
+    }, 
+    "prefs_disable_all": {
+        "message": "\u00d3gilda alt"
+    }, 
+    "prefs_enable_all": {
+        "message": "Gilda alt"
+    }, 
+    "prefs_enabled": {
+        "message": "Gilda"
+    }, 
+    "prefs_here_link": {
+        "message": "her"
+    }, 
+    "prefs_list_caption": {
+        "message": "Hv\u00f8jar HTTPS-umstillingarreglur skulu ver\u00f0a galdandi?"
+    }, 
+    "prefs_notes": {
+        "message": "Notur"
+    }, 
+    "prefs_reset_default": {
+        "message": "Nullstilla"
+    }, 
+    "prefs_reset_defaults": {
+        "message": "Nullstill"
+    }, 
+    "prefs_ruleset_howto": {
+        "message": "T\u00fa kanst l\u00e6ra, hvussu t\u00fa skrivar egnin reglusett (fyri at f\u00e1a stu\u00f0ul fr\u00e1 \u00f8\u00f0rum s\u00ed\u00f0um)"
+    }, 
+    "prefs_search": {
+        "message": "Leita"
+    }, 
+    "prefs_site": {
+        "message": "S\u00ed\u00f0a"
+    }, 
+    "prefs_title": {
+        "message": "Stillingar fyri HTTPS Allasta\u00f0ni"
+    }, 
+    "prefs_toggle": {
+        "message": "Tendra"
+    }, 
+    "prefs_view_xml_source": {
+        "message": "V\u00eds XML-keldu"
+    }
+}

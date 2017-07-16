@@ -1,0 +1,225 @@
+{
+   "chrome_web_store": {
+      "description": "Chrome Web Store",
+      "message": "Chrome Web Store"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum 130 characters",
+      "message": "Wiederhole Videos automatisch mit EINEM-KLICK, ändere Optionen wie Anzahl der Wiederholungen, Teil- oder Auto-Wiederholungen"
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "Deutsch"
+   },
+   "message_saved": {
+      "description": "message shown after saving options",
+      "message": "Gespeichert"
+   },
+   "option_advanced_panel": {
+      "description": "Checkbox, toggle loop panel for setting loop times and portion",
+      "message": "Erweiterte Einstellungen (Anzahl der Wiederholungen, Teilwiederholungen) zeigen"
+   },
+   "option_auto": {
+      "description": "default/'auto' quality base on youtube selection",
+      "message": "Standard (Automatisch)"
+   },
+   "option_auto_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip",
+      "message": "Wiederhole jedes Video automatisch"
+   },
+   "option_auto_player_size": {
+      "description": "Checkbox, set player size. (Default Youtube player size as) Small/Large/Larger",
+      "message": "Setze die Standard Größe des Players zu"
+   },
+   "option_auto_quality": {
+      "description": "Selectbox, set default video quality",
+      "message": "Setze die Standard Videoqualität zu"
+   },
+   "option_default_show_panel": {
+      "description": "Checkbox, check to show the LOOP panel instead of ABOUT tab upon page load, applies only when Auto Loop is enabled or URL parameter is set",
+      "message": "Zeige Wiederholungsreiter statt 'Info', wenn eine neue Seite geladen wird (nur wirksam wenn Automatisch Wiederholen von jedem Video aktiv ist oder URL Parameter gesetzt wurde)"
+   },
+   "option_full_size": {
+      "description": "full-window size",
+      "message": "Volle Größe"
+   },
+   "option_keyboard_shortcut_loop": {
+      "description": "Checkbox, P key as keyboard shortcut for loop",
+      "message": "Aktivere 'P' als Taste zum An/Ausschalten von Wiederholungen"
+   },
+   "option_keyboard_shortcut_pause": {
+      "description": "Checkbox, spacebar as keyboard shortcut for play/pause video, applies to anywhere on Youtube pages",
+      "message": "Aktivere 'Leertaste' als Taste für Start/Pause eines Videos"
+   },
+   "option_large_size": {
+      "description": "large size",
+      "message": "Groß"
+   },
+   "option_larger_size": {
+      "description": "larger size",
+      "message": "Größer"
+   },
+   "option_manual_loop": {
+      "description": "Radiobox, start loop manually for every clip",
+      "message": "Wiederhole jedes Video manuell"
+   },
+   "option_savestate_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip if state on previous video is looping",
+      "message": "Wiederhole jedes Video automatisch anhand der vorherigen Einstellung"
+   },
+   "option_show_changelog": {
+      "description": "Checkbox, show changelog page when user opens YouTube after updating extension",
+      "message": "Zeige Änderungen, wenn die Erweiterung aktualisiert wurde"
+   },
+   "option_small_size": {
+      "description": "small size",
+      "message": "Klein"
+   },
+   "script_button_hover": {
+      "description": "hover tips, loop button",
+      "message": "Automatisch Wiederholen"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Wiederholen"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Spiele die Playlist weiter"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Doppelklick für die aktuelle Zeit"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Doppelklick, um diesen Teil zu wiederholen"
+   },
+   "script_from": {
+      "description": "loop portion, from",
+      "message": "von "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Ausblenden"
+   },
+   "script_information": {
+      "description": "Promotion on options page for user",
+      "message": "Wusstest du, dass du die Standardeinstellungen für Wiederholungen und Videoqualität in den Optionen einstellen kannst?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Wiederhole für "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Wiederhole für "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Wiederhole einen Teil: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Optionen"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Anzahl der Wiederholungen: "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Anzahl der Wiederholungen: "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Video stoppen"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " Mal"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " Mal"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " bis "
+   },
+   "text_experimental": {
+      "description": "experimental features",
+      "message": " (*Experimentell)"
+   },
+   "text_extension_by": {
+      "description": "Please do not change the name of the extension, just translate the term, by",
+      "message": "Looper for YouTube von "
+   },
+   "text_feedback": {
+      "description": "Encourage users leaving reviews on chrome web store",
+      "message": "Hinterlasse einen Kommentar und bewerte 5 Sterne im Chrome Web Store, wenn dir Looper for YouTube gefällt."
+   },
+   "text_full_changelog": {
+      "description": "link to change-log page",
+      "message": "Für alle Änderungen, klicke bitte hier"
+   },
+   "text_not_compatible": {
+      "description": "Not compatible with other extensions for YouTube that have similar function to use at the same time.",
+      "message": "Nicht kompatibel mit anderen Erweiterungen für YouTube mit gleichen oder ähnlichen Funktionen"
+   },
+   "text_outdate_chrome": {
+      "description": "as chrome.storage api is not available in version 19 or below, options saving is not working.",
+      "message": "Die oben stehenden Optionen funktionieren nicht in Chrome 19 oder älter."
+   },
+   "text_refresh_page": {
+      "description": "After options are saved, refresh and open YouTube page.",
+      "message": "Nach dem Speichern, lade und öffne die YouTube Seite neu"
+   },
+   "text_support": {
+      "description": "please keep those html tags",
+      "message": "Bitte melde alle Probleme oder Vorschläge auf der \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Support Seite im Chrome Web Store\u003C/a> oder schreibe ein E-Mail an looperforyoutube@alvinhkh.com (in Englisch)"
+   },
+   "text_tweet": {
+      "description": "maximum 100 characters",
+      "message": "Looper for YouTube, tolle Chrome Erweiterung um Videos mit einem Klick zu wiederholen"
+   },
+   "text_version": {
+      "description": "(Version) 1.0.0",
+      "message": "Version"
+   },
+   "text_welcome_translation": {
+      "message": "Willkommen bei der Übersetzung in deine Sprache!"
+   },
+   "title_changelog": {
+      "description": "Change-log (in English)",
+      "message": "Änderungen (in Englisch)"
+   },
+   "title_extra_features": {
+      "description": "Extra Features",
+      "message": "Extra Funktionen"
+   },
+   "title_feedback": {
+      "description": "Give us feedback",
+      "message": "Gib uns Feedback ★★★★★"
+   },
+   "title_share": {
+      "description": "Encourage sharing extension on social media",
+      "message": "Teile diese Erweiterung mit deinen Freunden, damit sie auch YouTube Videos wiederholen können, so wie du :)"
+   }
+}

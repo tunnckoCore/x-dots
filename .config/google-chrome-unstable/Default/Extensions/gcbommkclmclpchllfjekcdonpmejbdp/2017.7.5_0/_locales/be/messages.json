@@ -1,0 +1,155 @@
+{
+    "about_add_new_rule": {
+        "message": "Add New Rule"
+    }, 
+    "about_and": {
+        "message": ", and"
+    }, 
+    "about_created_by": {
+        "message": "\u0421\u0442\u0432\u0430\u0440\u0430\u043b\u044c\u043d\u0456\u043a\u0456"
+    }, 
+    "about_donate_eff": {
+        "message": "\u0430\u0445\u0432\u044f\u0440\u0430\u0432\u0430\u0446\u044c \u0441\u0440\u043e\u0434\u043a\u0456 EFF"
+    }, 
+    "about_donate_tor": {
+        "message": "\u0430\u0445\u0432\u044f\u0440\u0430\u0432\u0430\u0446\u044c \u0441\u0440\u043e\u0434\u043a\u0456 Tor"
+    }, 
+    "about_ext_description": {
+        "message": "\u0428\u044b\u0444\u0440\u0430\u0432\u0430\u043d\u043d\u0435 \u0421\u0435\u0446\u0456\u0432\u0430! \u0410\u045e\u0442\u0430\u043c\u0430\u0442\u044b\u0447\u043d\u0430\u0435 \u0432\u044b\u043a\u0430\u0440\u044b\u0441\u0442\u0430\u043d\u043d\u0435 \u0431\u044f\u0441\u043f\u0435\u043a\u0456 HTTPS \u043d\u0430 \u0440\u043e\u0437\u043d\u044b\u0445 \u0441\u0430\u0439\u0442\u0430\u0445"
+    }, 
+    "about_ext_name": {
+        "message": "HTTPS Everywhere"
+    }, 
+    "about_librarians": {
+        "message": "\u0411\u0456\u0431\u043b\u0456\u044f\u0442\u044d\u043a\u0430\u0440\u044b \u0437\u0431\u043e\u0440\u0430\u045e \u043f\u0440\u0430\u0432\u0456\u043b\u0430\u045e"
+    }, 
+    "about_many_contributors": {
+        "message": "Many many contributors, including"
+    }, 
+    "about_noscript": {
+        "message": "Also, portions of HTTPS Everywhere are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!"
+    }, 
+    "about_or": {
+        "message": "or"
+    }, 
+    "about_thanks": {
+        "message": "\u041f\u0430\u0434\u0437\u044f\u043a\u0456"
+    }, 
+    "about_title": {
+        "message": "\u041f\u0440\u0430 HTTPS Everywhere"
+    }, 
+    "about_tor_lang_code": {
+        "message": "be"
+    }, 
+    "about_version": {
+        "message": "\u0412\u0435\u0440\u0441\u0456\u044f"
+    }, 
+    "chrome_add_new_rule": {
+        "message": "Add a new rule for this site"
+    }, 
+    "chrome_add_rule": {
+        "message": "Add a rule for this site"
+    }, 
+    "chrome_always_https_for_host": {
+        "message": "Always use https for this host"
+    }, 
+    "chrome_experimental_rules": {
+        "message": "Experimental rules"
+    }, 
+    "chrome_experimental_rules_description": {
+        "message": "May cause warnings or breakage. Disabled by default."
+    }, 
+    "chrome_hide_advanced": {
+        "message": "Hide advanced"
+    }, 
+    "chrome_host": {
+        "message": "Host:"
+    }, 
+    "chrome_redirect_to": {
+        "message": "Redirect to"
+    }, 
+    "chrome_regex": {
+        "message": "Matching regex"
+    }, 
+    "chrome_rule_name": {
+        "message": "Rule name"
+    }, 
+    "chrome_show_advanced": {
+        "message": "Show advanced"
+    }, 
+    "chrome_stable_rules": {
+        "message": "Stable rules"
+    }, 
+    "chrome_stable_rules_description": {
+        "message": "Force encrypted connections to these websites:"
+    }, 
+    "chrome_status_cancel_button": {
+        "message": "\u0421\u043a\u0430\u0441\u0430\u0432\u0430\u0446\u044c"
+    }, 
+    "menu_about": {
+        "message": "\u041f\u0440\u0430 HTTPS Everywhere"
+    }, 
+    "menu_blockUnencryptedRequests": {
+        "message": "Block all unencrypted requests"
+    }, 
+    "menu_donate_eff_imperative": {
+        "message": "Donate to EFF"
+    }, 
+    "menu_globalDisable": {
+        "message": "\u0410\u0434\u043a\u043b\u044e\u0447\u044b\u0446\u044c HTTPS Everywhere"
+    }, 
+    "menu_globalEnable": {
+        "message": "\u0423\u043a\u043b\u044e\u0447\u044b\u0446\u044c HTTPS Everywhere"
+    }, 
+    "menu_observatory": {
+        "message": "\u041d\u0430\u0441\u0442\u00e1\u045e\u043b\u0435\u043d\u043d\u0456 SSL Observatory"
+    }, 
+    "menu_showCounter": {
+        "message": "\u041f\u0430\u043a\u0430\u0437\u0430\u0446\u044c \u043b\u0456\u0447\u044b\u043b\u044c\u043d\u0456\u043a"
+    }, 
+    "menu_viewAllRules": {
+        "message": "View All Rules"
+    }, 
+    "prefs_disable_all": {
+        "message": "\u0410\u0434\u043a\u043b\u044e\u0447\u044b\u0446\u044c \u0443\u0441\u0435"
+    }, 
+    "prefs_enable_all": {
+        "message": "\u0423\u043a\u043b\u044e\u0447\u044b\u0446\u044c \u0443\u0441\u0435"
+    }, 
+    "prefs_enabled": {
+        "message": "\u0423\u043a\u043b\u044e\u0447\u0430\u043d\u0430"
+    }, 
+    "prefs_here_link": {
+        "message": "\u0442\u0443\u0442"
+    }, 
+    "prefs_list_caption": {
+        "message": "\u042f\u043a\u0456\u044f \u043f\u0440\u0430\u0432\u0456\u043b\u044b HTTPS-\u043f\u0435\u0440\u0430\u043d\u0430\u043a\u0456\u0440\u0430\u0432\u0430\u043d\u043d\u044f\u045e \u0442\u0440\u044d\u0431\u0430 \u0437\u0430\u0434\u0437\u0435\u0439\u043d\u0456\u0447\u0430\u0446\u044c?"
+    }, 
+    "prefs_notes": {
+        "message": "\u041d\u0430\u0442\u0430\u0442\u043a\u0456"
+    }, 
+    "prefs_reset_default": {
+        "message": "\u0421\u043a\u0456\u043d\u0443\u0446\u044c \u0434\u0430 \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u0430\u0433\u0430"
+    }, 
+    "prefs_reset_defaults": {
+        "message": "\u0421\u043a\u0456\u043d\u0443\u0446\u044c \u0434\u0430 \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u044b\u0445"
+    }, 
+    "prefs_ruleset_howto": {
+        "message": "\u0412\u044b \u043c\u043e\u0436\u0430\u0446\u0435 \u043d\u0430\u0432\u0443\u0447\u044b\u0446\u0446\u0430 \u043f\u0456\u0441\u0430\u0446\u044c \u0443\u043b\u0430\u0441\u043d\u044b\u044f \u0437\u0431\u043e\u0440\u044b \u043f\u0440\u0430\u0432\u0456\u043b\u0430\u045e (\u043a\u0430\u0431 \u0434\u0430\u0434\u0430\u0446\u044c \u043f\u0430\u0434\u0442\u0440\u044b\u043c\u043a\u0443 \u0434\u043b\u044f \u0456\u043d\u0448\u044b\u0445 \u0432\u044d\u0431\u0441\u0430\u0439\u0442\u0430\u045e)"
+    }, 
+    "prefs_search": {
+        "message": "\u041f\u043e\u0448\u0443\u043a"
+    }, 
+    "prefs_site": {
+        "message": "\u0421\u0430\u0439\u0442"
+    }, 
+    "prefs_title": {
+        "message": "\u041d\u0430\u0441\u0442\u00e1\u045e\u043b\u0435\u043d\u043d\u0456 HTTPS Everywhere"
+    }, 
+    "prefs_toggle": {
+        "message": "\u041f\u0435\u0440\u0430\u043a\u043b\u044e\u0447\u044b\u0446\u044c"
+    }, 
+    "prefs_view_xml_source": {
+        "message": "\u041f\u0440\u0430\u0433\u043b\u044f\u0434 \u043a\u0440\u044b\u043d\u0456\u0447\u043d\u0430\u0433\u0430 XML-\u043a\u043e\u0434\u0443"
+    }
+}

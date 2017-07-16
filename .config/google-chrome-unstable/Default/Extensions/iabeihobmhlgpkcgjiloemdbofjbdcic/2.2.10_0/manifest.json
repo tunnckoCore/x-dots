@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "extension.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_title": "bitly"
+   },
+   "description": "Shorten, measure, and optimize your links.",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpjrqTBAPULiPXZOQK+COqppxLEFd+qKpd9+AOBkGLujrt8cPhsrScjI/8KCTM5UiYHLo1dGr56p0uzjclY6Mqlwas0l1v3kLq4NUrgKnLQyhOxaEae3RPUn1zhAx93opOn0z9nB+oJcYZWQl6z/Cq2lgG6XsyX/kMHstsRgUicQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "42.0.0.0",
+   "name": "Bitly | Unleash the power of the link",
+   "permissions": [ "activeTab", "identity", "storage", "https://api-ssl.bitly.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.10",
+   "web_accessible_resources": [ "app.html", "src/app.js", "src/closeExtension.js", "Bitly.eot", "Bitly.svg", "Bitly.ttf", "Bitly.woff", "ProximaNova-Regular.otf", "ProximaNova-Semibold.otf", "deeplink_upsell.svg", "campaign_upsell.svg" ]
+}

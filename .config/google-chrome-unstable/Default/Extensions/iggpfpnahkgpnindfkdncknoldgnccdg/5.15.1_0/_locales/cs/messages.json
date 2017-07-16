@@ -1,0 +1,225 @@
+{
+   "chrome_web_store": {
+      "description": "Chrome Web Store",
+      "message": "Internetový obchod Chrome"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum of 130 characters",
+      "message": "Přehrávání JEDNÍM KLIKEM a možnost mít AUTOPŘEHRÁVÁNÍ jako VÝCHOZÍ u videí. Neomezené přehrávání videí, a nebo jen jejich úseků."
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Français",
+      "message": "čeština"
+   },
+   "message_saved": {
+      "description": "message shown after options saved",
+      "message": "Uloženo"
+   },
+   "option_advanced_panel": {
+      "description": "Option Checkbox, loop panel that include loop times and loop in portion",
+      "message": "Pokročilé nastavení přehrávání (kolikrát, a nebo jaký úsek přehrávat)"
+   },
+   "option_auto": {
+      "description": "default/'auto' quality based on youtube selection",
+      "message": "Výchozí (Auto.)"
+   },
+   "option_auto_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip",
+      "message": "Automatické přehrávání všech videí"
+   },
+   "option_auto_player_size": {
+      "description": "Option Checkbox, auto player size",
+      "message": "Automaticky rozměry videa na"
+   },
+   "option_auto_quality": {
+      "description": "Option Selectbox, auto video quality",
+      "message": "Automaticky kvalitu videa na"
+   },
+   "option_default_show_panel": {
+      "description": "Option Checkbox, set not to show panel if options set before page load, like auto default loop or set options via url, instead, it will show the about panel",
+      "message": "Ukázat panel možností přehrávání, i když je nastaveno při načtení stránky"
+   },
+   "option_full_size": {
+      "description": "full-window player size",
+      "message": "Na celou obrazovku"
+   },
+   "option_keyboard_shortcut_loop": {
+      "description": "Option Checkbox, p key as keyboard shortcut to loop",
+      "message": "Povolit 'P' jako klávesovou zkratku pro přehrávání"
+   },
+   "option_keyboard_shortcut_pause": {
+      "description": "Option Checkbox, spacebar as keyboard shortcut for play/pause video for whole page instead of only when player focus",
+      "message": "Povolit 'mezerník' jako klávesovou zkratku pro pozastavení/spuštění videa"
+   },
+   "option_large_size": {
+      "description": "large size",
+      "message": "Velké"
+   },
+   "option_larger_size": {
+      "description": "larger size",
+      "message": "Větší"
+   },
+   "option_manual_loop": {
+      "description": "Radiobox, start loop manually for every clip",
+      "message": "Přehrávat každé video ručně"
+   },
+   "option_savestate_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip if state on previous video is looping",
+      "message": "Automatické přehrávání videí podle předchozího stavu"
+   },
+   "option_show_changelog": {
+      "description": "changelog page will be shown when user open YouTube after the extension is updated",
+      "message": "Ukázat seznam změn při aktualizaci rozšíření"
+   },
+   "option_small_size": {
+      "description": "small size",
+      "message": "Malé"
+   },
+   "script_button_hover": {
+      "description": "loop button hover pop-up tips",
+      "message": "Automaticky toto přehrávat"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "Přehrávání"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "Pokračovat v playlistu"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "Dvojklik ke zjištění aktuálního času"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "Dvojklik ke spuštění přehrávání úseku"
+   },
+   "script_from": {
+      "description": "loop in a portion, from",
+      "message": "od "
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "Schovat"
+   },
+   "script_information": {
+      "description": "information to promote user to option page",
+      "message": "Víte, že v možnostech si můžete nastavit autopřehrávání a kvalitu, v jaké se vám budou videa spouštět?"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "Přehrávat "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "Přehrávat "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": ""
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "Přehrávat úsek: "
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " minute(s)"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "Možnosti"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "Přehráno "
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "Přehráno "
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "Zůstat u videa"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " krát"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " krát"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " do "
+   },
+   "text_experimental": {
+      "description": "experiment features",
+      "message": " (*Experimentální)"
+   },
+   "text_extension_by": {
+      "description": "Please do not change the name of the extension, just translate the term, by",
+      "message": "Looper for YouTube od "
+   },
+   "text_feedback": {
+      "description": "Encourage leaving reviews on chrome web store",
+      "message": "Zanechte komentář a ohodnoťte 5 hvězdičky v internetovém obchodě Chrome, pokud jste si oblíbili přehrávání YouTube videí s Looper for YouTube."
+   },
+   "text_full_changelog": {
+      "description": "link to change-log page",
+      "message": "Pro kompletní seznam změn klikněte zde."
+   },
+   "text_not_compatible": {
+      "description": "Not compatible with other extensions for YouTube that have similar function to use at the same time.",
+      "message": "Nekompatibilní s jinými rozšířeními pro YouTube, které využívají stejných funkcí v jednu chvíli."
+   },
+   "text_outdate_chrome": {
+      "description": "as chrome.storage api is not available in version 19 or below, options saving is not working.",
+      "message": "Nastavení výše nefungují v Chromu verze 19 a nižší."
+   },
+   "text_refresh_page": {
+      "description": "After you save your options, refresh opened YouTube page.",
+      "message": "Po uložení vašeho nastavení obnovte otevřenou stránku YouTube."
+   },
+   "text_support": {
+      "description": "please keep those html tags",
+      "message": "Jakékoliv problémy a stížnosti zasílejte na \u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">Podpora CWS\u003C/a> nebo na email looperforyoutube@alvinhkh.com (v angličtině)."
+   },
+   "text_tweet": {
+      "description": "maximum of 100 characters",
+      "message": "Looper for YouTube, úžasné chromové rozšíření, které vám umožní přehrávání videí jedním klikem."
+   },
+   "text_version": {
+      "description": "(Version) 1.0.0",
+      "message": "Verze"
+   },
+   "text_welcome_translation": {
+      "message": "Překlady pro váš jazyk jsou vítány."
+   },
+   "title_changelog": {
+      "description": "Change-log",
+      "message": "Seznam změn (v angličtině)"
+   },
+   "title_extra_features": {
+      "description": "Extra Features",
+      "message": "Dodatečné možnosti"
+   },
+   "title_feedback": {
+      "description": "Give us feedback",
+      "message": "Zpětná vazba ★★★★★"
+   },
+   "title_share": {
+      "description": "Encourage sharing this extension on social media",
+      "message": "Pochlubte se s rozšířením i svým přátelům, aby si užili přehrávání YouTube videí stejně jako vy :)"
+   }
+}

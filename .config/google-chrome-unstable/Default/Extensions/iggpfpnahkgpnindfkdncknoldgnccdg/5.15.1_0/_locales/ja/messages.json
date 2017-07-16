@@ -1,0 +1,249 @@
+{
+   "chrome_web_store": {
+      "description": "Chrome Web Store",
+      "message": "Chrome ウェブストア"
+   },
+   "extension_description": {
+      "description": "description shown in Chrome Web Store, maximum 130 characters",
+      "message": "YouTubeの動画が、ワンクリックでループ再生可能に。ループ回数の指定や部分再生も可能。"
+   },
+   "extension_name": {
+      "description": "do not translate this",
+      "message": "Looper for YouTube"
+   },
+   "language": {
+      "description": "language, eg. Chinese - 中文, French - Francais",
+      "message": "日本語"
+   },
+   "message_saved": {
+      "description": "message shown after saving options",
+      "message": "保存しました"
+   },
+   "option_advanced_panel": {
+      "description": "Checkbox, toggle loop panel for setting loop times and portion",
+      "message": "高度なループオプション（ループ回数のカウント、部分再生）"
+   },
+   "option_auto": {
+      "description": "default/'auto' quality base on youtube selection",
+      "message": "デフォルト（オート）"
+   },
+   "option_auto_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip",
+      "message": "動画再生時に自動的にループを有効化"
+   },
+   "option_auto_player_size": {
+      "description": "Checkbox, set player size. (Default Youtube player size as) Small/Large/Larger",
+      "message": "動画再生時のプレーヤーのサイズ："
+   },
+   "option_auto_quality": {
+      "description": "Selectbox, set default video quality",
+      "message": "動画再生時の画質："
+   },
+   "option_button": {
+      "description": "Selectbox, set visible button content",
+      "message": "ループボタンの表示"
+   },
+   "option_button_icon": {
+      "description": "selection option, icon only",
+      "message": "アイコンのみ"
+   },
+   "option_button_iconandtext": {
+      "description": "selection option, icon and text",
+      "message": "アイコンとテキスト"
+   },
+   "option_button_text": {
+      "description": "selection option, text only",
+      "message": "テキストのみ"
+   },
+   "option_default_show_panel": {
+      "description": "Checkbox, check to show the LOOP panel instead of ABOUT tab upon page load, applies only when Auto Loop is enabled or URL parameter is set",
+      "message": "新しいページをロード中に、'About'タブの代わりにループパネルを表示（自動ループ有効時、またはURLにパラメータがセットされている際に適応されます）"
+   },
+   "option_full_size": {
+      "description": "full-window player size",
+      "message": "フルサイズ"
+   },
+   "option_keyboard_shortcut_loop": {
+      "description": "Checkbox, P key as keyboard shortcut for loop",
+      "message": "ループ有効/無効の切り替えをするキーボードショートカット（Pキー）を有効にする"
+   },
+   "option_keyboard_shortcut_pause": {
+      "description": "Checkbox, spacebar as keyboard shortcut for play/pause video, applies to anywhere on Youtube pages",
+      "message": "動画再生/一時停止の切り替えをするキーボードショートカット（スペースキー）を有効にする"
+   },
+   "option_large_size": {
+      "description": "large size",
+      "message": "大きい"
+   },
+   "option_larger_size": {
+      "description": "larger size",
+      "message": "より大きい"
+   },
+   "option_manual_loop": {
+      "description": "Radiobox, start loop manually for every clip",
+      "message": "ループ設定を手動で設定"
+   },
+   "option_savestate_loop": {
+      "description": "Radiobox, allow loop auto-starts when opening any clip if state on previous video is looping",
+      "message": "前回のループ設定を引き継ぐ"
+   },
+   "option_show_changelog": {
+      "description": "Checkbox, show changelog page when user opens YouTube after updating extension",
+      "message": "この拡張機能がアップデートされた際に更新履歴を表示する"
+   },
+   "option_small_size": {
+      "description": "small size",
+      "message": "小さい"
+   },
+   "script_and": {
+      "description": "Played 1 times ( and ) Played 1 minutes",
+      "message": " と "
+   },
+   "script_button_hover": {
+      "description": "hover tips, loop button",
+      "message": "この動画を自動的にループ"
+   },
+   "script_button_hover_disabled_watchqueue": {
+      "description": "hover tips, loop button, google cast is not working",
+      "message": "再生キューが動作しません"
+   },
+   "script_button_text": {
+      "description": "loop button text",
+      "message": "ループ"
+   },
+   "script_continue_to_play_playlist": {
+      "description": "playlist option button, continue to play the playlist",
+      "message": "再生リストの再生を続行"
+   },
+   "script_double_click_to_get_current_time": {
+      "description": "hover tips, double click to get current time",
+      "message": "ダブルクリックで現在の回数を取得"
+   },
+   "script_double_click_to_start_loop_in_portion": {
+      "description": "hover tips, double click to start loop this portion",
+      "message": "ダブルクリックで部分再生を開始"
+   },
+   "script_from": {
+      "description": "loop portion, from",
+      "message": ""
+   },
+   "script_hide_info": {
+      "description": "hide information",
+      "message": "非表示"
+   },
+   "script_information": {
+      "description": "Promotion on options page for user",
+      "message": "オプションページで、動画のデフォルトの画質をHDに変更できます。"
+   },
+   "script_loop_for_minutes": {
+      "description": "Loop for, number of minutes",
+      "message": "ループ回数： "
+   },
+   "script_loop_for_times": {
+      "description": "Loop for, number of times",
+      "message": "ループ回数： "
+   },
+   "script_loop_in_portion_end": {
+      "description": "loop in a portion, end string",
+      "message": "まで"
+   },
+   "script_loop_in_portion_start": {
+      "description": "loop in a portion, start string",
+      "message": "部分再生"
+   },
+   "script_minutes_loop": {
+      "description": "Loop for x (minutes)",
+      "message": " 分"
+   },
+   "script_minutes_played": {
+      "description": "Played x (minutes)",
+      "message": " 分"
+   },
+   "script_options": {
+      "description": "options page link text",
+      "message": "オプション"
+   },
+   "script_played_minutes": {
+      "description": "(Played) x minutes",
+      "message": "再生回数："
+   },
+   "script_played_times": {
+      "description": "(Played) x times",
+      "message": "再生回数："
+   },
+   "script_stop_video": {
+      "description": "playlist option button, stop Video after finish loop number of times",
+      "message": "動画をストップ"
+   },
+   "script_times_loop": {
+      "description": "Loop for x (times)",
+      "message": " 回"
+   },
+   "script_times_played": {
+      "description": "Played x (times)",
+      "message": " 回"
+   },
+   "script_to": {
+      "description": "loop in a portion, to",
+      "message": " から "
+   },
+   "text_experimental": {
+      "description": "experimental features",
+      "message": "（*実験的な機能）"
+   },
+   "text_extension_by": {
+      "description": "Please do not change the name of the extension, just translate the term, by",
+      "message": "Looper for YouTube by "
+   },
+   "text_feedback": {
+      "description": "Encourage users leaving reviews on chrome web store",
+      "message": "この拡張機能を気に入ってくださったら、５つ星の評価やコメントをお願いします！"
+   },
+   "text_full_changelog": {
+      "description": "link to change-log page",
+      "message": "過去の更新履歴を見たい場合は、ここをクリック"
+   },
+   "text_not_compatible": {
+      "description": "Not compatible with other extensions for YouTube that have similar function to use at the same time.",
+      "message": "同様の機能を持つ他の拡張機能には対応していません。"
+   },
+   "text_outdate_chrome": {
+      "description": "as chrome.storage api is not available in version 19 or below, options saving is not working.",
+      "message": "上記のオプションは、バージョン19以下のChromeでは動作しません。"
+   },
+   "text_refresh_page": {
+      "description": "After options are saved, refresh and open YouTube page.",
+      "message": "設定を保存したら、YouTubeを再読み込みしてください。"
+   },
+   "text_support": {
+      "description": "please keep those html tags",
+      "message": "何か問題点や提案がございましたら、\u003Ca id=\"support_page\" href=\"#\" target=\"_blank\">ウェブストア上のサポートページ\u003C/a>、またはlooperforyoutube@alvinhkh.com（英語）まで"
+   },
+   "text_tweet": {
+      "description": "maximum 100 characters",
+      "message": "Looper for YouTubeは、YouTubeの動画をワンクリックでループ再生を可能にする、素晴らしい拡張機能です。"
+   },
+   "text_version": {
+      "description": "(Version) 1.0.0",
+      "message": "バージョン"
+   },
+   "text_welcome_translation": {
+      "message": "あなたがお使いの言語への翻訳を歓迎します！"
+   },
+   "title_changelog": {
+      "description": "Change-log (in English)",
+      "message": "更新履歴（英語）"
+   },
+   "title_extra_features": {
+      "description": "Extra Features",
+      "message": "追加機能"
+   },
+   "title_feedback": {
+      "description": "Give us feedback",
+      "message": "フィードバックを送信 ★★★★★"
+   },
+   "title_share": {
+      "description": "Encourage sharing extension on social media",
+      "message": "この拡張機能を友達にシェアして、友達にもYouTubeのループ再生を楽しんでもらいましょう :)"
+   }
+}

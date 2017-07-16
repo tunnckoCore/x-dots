@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'MeteoconsRegular';
+    src: url('meteocons-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url('Lato-Hairline.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url('Lato-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('Lato-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
+    background-color: #f7f7f7;
+}
+
+#container {
+    margin: 30px auto;
+    background-color: #fff;
+    width: 800px;
+    -webkit-box-shadow: 3px 3px 0px rgba(0,0,0,0.05);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    color: rgba(42,57,98,1);
+}
+
+h2 {
+    font-size: 18px;
+    color: rgba(42,57,98,0.8);
+}
+
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 0px;
+}
+
+#location {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    width: 400px;
+    outline: none;
+    padding: 8px;
+}
+
+.results {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
+    max-height: 300px;
+    overflow-y: auto;
+    width: 416px;
+}
+
+.results .result {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.results .result:hover {
+    background-color: #eee;
+}

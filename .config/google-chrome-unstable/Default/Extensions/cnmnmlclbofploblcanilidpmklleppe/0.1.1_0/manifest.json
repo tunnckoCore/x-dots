@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "content.css", "dark-mode.css" ],
+      "js": [ "vendor/mousetrap.js", "vendor/mousetrap-global-bind.js", "content.js" ],
+      "matches": [ "https://m.wikipedia.org/*", "https://*.m.wikipedia.org/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Enforces the mobile web version of Wikipedia and improves its interface",
+   "homepage_url": "https://github.com/ismamz/refined-wikipedia",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoc1L5m7z3NCjFmhvma6khc+aI89VaE/gK5yT3vmFVRxCipW3qcTAL9uRdzOZOFku/aBZ+mJgXwJ859VllTOnQeZ6xZx93pFXtFcfvV7MZbJdvdOBoLH3aSgXh4sRtnizk+PdpCCvv+N5mUWe1uEVtJItNqfCeIrUueTZ0oPeGlVZzI6W3I15THLdUVfnRW15ZoUh2E5MsXS/mcPevx94TbY1ijC23TxslXIyUb0MaCOu5+z0FA1SOypogFdhaqibOYDZ38+CcK7EJZy5uElMUwdKJ/M5C0I1u2c5WHORy5SOqk7Xw+LSF3sICyqC+mgYCFMf20qFi8T3PhLI1G1/VwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "50",
+   "name": "Refined Wikipedia",
+   "permissions": [ "webRequest", "webRequestBlocking", "storage", "https://wikipedia.org/*", "https://*.wikipedia.org/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.1"
+}
