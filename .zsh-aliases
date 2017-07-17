@@ -19,6 +19,8 @@ alias sk="screenkey"
 alias df="df -h"
 alias free="free -m"
 alias fixit="sudo rm -f /var/lib/pacman/db.lck && sudo pacman-mirrors -g && sudo pacman -Syyuu && sudo pacman -Suu"
+alias nr="npm run"
+alias nrt="npm test"
 
 # replace `*` with `x` to avoid expansion
 math() {
