@@ -19,7 +19,7 @@ alias sk="screenkey"
 alias df="df -h"
 alias free="free -m"
 alias fixit="sudo rm -f /var/lib/pacman/db.lck && sudo pacman-mirrors -g && sudo pacman -Syyuu && sudo pacman -Suu"
-alias nr="npm run"
+alias nr="npm run --silent"
 alias nrt="npm test"
 
 # replace `*` with `x` to avoid expansion
@@ -76,3 +76,7 @@ alias gitback="git back && git push -f"
 # require: github/hub
 alias git="hub"
 alias gcr="git create"
+
+# Semantic Releases Setup
+alias sss="semantic-release-cli setup"
+

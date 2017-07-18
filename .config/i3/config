@@ -126,6 +126,7 @@ assign [class="^Google-chrome*"] $ws1
 assign [class="Xfce4-terminal" instance="xfce4-terminal" title="^Terminal 1"] $ws2
 #assign [class="Subl3"] $ws3
 assign [class="Atom"] $ws3
+assign [class="Code"] $ws3
 assign [class="Firefox"] $ws5
 assign [class="Pcmanfm"] $ws6
 assign [class="Xfce4-terminal" title="htop"] $ws7
