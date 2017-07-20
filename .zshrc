@@ -9,6 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="charlike-stef"
+#ZSH_THEME="spaceship"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -52,12 +53,12 @@ ZSH_CUSTOM="$ZSH/custom"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git npm yarn sudo web-search archlinux git-extras)
+plugins=(git npm yarn sudo web-search archlinux git-extras k zsh-autosuggestions)
 
 # plugins that should be installed manually, run:
 # git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 # git clone https://github.com/supercrabtree/k ~/.oh-my-zsh/custom/plugins/k
-plugins+=(k zsh-autosuggestions)
+# plugins+=(k zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 

@@ -16,7 +16,7 @@ export EDITOR="leafpad"
 export GIT_EDITOR="leafpad"
 export GIT_CONFIG_USERNAME="tunnckoCore"
 export GIT_CONFIG_USERMAIL="mameto2011@gmail.com"
-export GIT_CONFIG_TOKEN="`cat $RAGE/.github-token`"
+export GIT_CONFIG_TOKEN="b60886897494e287a805e158dafc1aa6c2b05f74"
 export PYTHON=/usr/bin/python2
 
 # Aliases
@@ -39,3 +39,5 @@ repo() {
   echo "Deleting '.gitkeep' file..."
   rm -rf .gitkeep
 }
+
+SPACESHIP_EXIT_CODE_SHOW=true
