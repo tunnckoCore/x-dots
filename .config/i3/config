@@ -45,7 +45,7 @@ set $ws8    "8:  empty"
 set $ws9    "9:  skype"
 set $ws0    "10:  empty"
 
-font pango: 						Noto Sans 11
+font pango: 						Noto Sans 12
 floating_modifier 					$super
 focus_follows_mouse 				no
 hide_edge_borders 				both
@@ -143,7 +143,7 @@ for_window [class="Xfce4-terminal" title="htop"] floating enable
 
 # Program bindings (using dmenu2)
 bindsym $super+d        $exec i3-dmenu-desktop --dmenu="~/.config/i3/scripts/dmenu_custom"
-bindsym $super+b        $exec google-chrome-unstable
+bindsym $super+b        $exec google-chrome-beta
 bindsym $super+h        $exec pcmanfm ~/
 
 # Don't forget to reload/restart i3 (with $super+$shift+r)
@@ -195,7 +195,7 @@ bindsym --release Caps_Lock    exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock    exec pkill -SIGRTMIN+11 i3blocks
 
 # Screenshoting
-set $scrt scrot '%Y-%m-%d-%T_$wx$h_scrot.png' -e 'mv $f /rage/Screenshots/'
+set $scrt scrot '%Y-%m-%d-%T_$wx$h_scrot.png' -e 'mv $f /home/charlike/Screenshots/'
 
 bindsym --release Print 				$exec $scrt     # fullscreen
 bindsym --release $super+Print 	$exec $scrt -u  # current window

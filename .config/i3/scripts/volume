@@ -22,8 +22,12 @@ esac
 
 # Front Left: Playback 65536 [100%] [on]
 
+# FrontLeft or Mono
 volPercentage=$(amixer get 'Master' | grep "Front Left:" | awk '{print $5}' | sed 's/[^0-9\%]//g')
+#volPercentage=$(amixer get 'Master' | grep "Mono:" | awk '{print $4}' | sed 's/[^0-9\%]//g')
+
 volOnOff=$(amixer get 'Master' | grep "Front Left:" | awk '{print $6}' | sed 's/[^a-z]//g')
+#volOnOff=$(amixer get 'Master' | grep "Mono:" | awk '{print $6}' | sed 's/[^a-z]//g')
 
 if [ "$volPercentage" == "0%" ] || [ "$volOnOff" == "off" ] ; then
   echo "off  "
